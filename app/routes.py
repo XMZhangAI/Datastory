@@ -14,9 +14,7 @@ def home():
 def get_data():
     # Load the pre-processed data
     data_re_energy = pd.read_json(
-        "data/processed_data_modern-renewable-energy-consumption.json",
-        orient="records",
-        lines=True,
+        "data/processed_data_modern-renewable-energy-consumption.json", orient="records"
     )
 
     # Send data to frontend
