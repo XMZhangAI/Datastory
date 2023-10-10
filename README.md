@@ -27,9 +27,10 @@ Instructions for how to submit issues, and guidelines for submitting pull reques
 [License Name]
 
 
-## Acknowledgements
-- Thanks to X and Y for...
-- Data source: [modern-renewable-energy-consumption](https://ourworldindata.org/grapher/modern-renewable-energy-consumption)
+## Data source:
+- [modern-renewable-energy-consumption](https://ourworldindata.org/grapher/modern-renewable-energy-consumption) *renewable energy consumption in Norway*
+- https://ourworldindata.org/grapher/forest-area-as-share-of-land-area
+- 
 
 ## To Do
 - Set up Trello
