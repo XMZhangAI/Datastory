@@ -1,8 +1,5 @@
 import pandas as pd
 
-# import os
-
-# print("Current working directory:", os.getcwd())
 # load in data
 filepath = "data/modern-renewable-energy-consumption.csv"
 data = pd.read_csv(filepath)
@@ -21,14 +18,7 @@ melted_data = pd.melt(
     value_name="TWh",
 )
 
-# # store processed data
-# melted_data.to_csv(
-#     "data/processed_data_modern-renewable-energy-consumption.csv", index=False
-# )
-
 # store processed data as JSON
 melted_data.to_json(
-    "data/processed_data_modern-renewable-energy-consumption.json",
-    orient="records",
-    lines=True,
+    "data/processed_data_modern-renewable-energy-consumption.json", orient="records"
 )
