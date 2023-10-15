@@ -4,43 +4,29 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             console.log(data);
             
-            // Group data by year and sum TWh for each energy type
+            // Group data by year
             const groupedData = data.reduce((acc, item) => {
                 if (!acc[item.Year]) {
-                    acc[item.Year] = {};
+                    acc[item.Year] = {
+                        "Forest area": item["Forest area"]
+                    };
                 }
-                acc[item.Year][item.Type] = item.Value;
+                acc[item.Year][item["Energy Type"]] = item.Value;
                 return acc;
             }, {});
 
             const labels = Object.keys(groupedData);
-            const datasets = [
-                {
-                    label: 'Other Renewables',
-                    data: labels.map(year => groupedData[year]["Other Renewables"] || 0),
-                    borderColor: 'green',
-                    fill: false
-                },
-                {
-                    label: 'Solar Generation',
-                    data: labels.map(year => groupedData[year]["Solar"] || 0),
-                    borderColor: 'yellow',
-                    fill: false
-                },
-                {
-                    label: 'Wind generation',
-                    data: labels.map(year => groupedData[year]["Wind"] || 0),
-                    borderColor: 'red',
-                    fill: false
-                },
-                {
-                    label: 'Hydro generation',
-                    data: labels.map(year => groupedData[year]["Hydro"] || 0),
-                    borderColor: 'blue',
+            const energyTypes = ["Other Renewables", "Solar", "Wind", "Hydro", "Forest area"];
+            const colors = ['green', 'orange', 'blue', 'purple', 'brown'];
+
+            const datasets = energyTypes.map((type, index) => {
+                return {
+                    label: type,
+                    data: labels.map(year => groupedData[year][type] || 0),
+                    borderColor: colors[index],
                     fill: false
                 }
-
-            ];
+            });
 
             // Create the chart
             const ctx = document.getElementById('energyChart').getContext('2d');
@@ -68,15 +54,14 @@ document.addEventListener("DOMContentLoaded", function() {
             
             // Set the slider canvas width to match the chart canvas width
             sliderCanvas.width = chartCanvas.offsetWidth;
-            sliderCanvas.height = 30;  // Or whatever height you want for the slider
-
+            sliderCanvas.height = 30;
 
             const sliderCtx = sliderCanvas.getContext('2d');
             let isDragging = false;
         
             // Draw initial line
             sliderCtx.beginPath();
-            sliderCtx.moveTo(0, 15); // 15 is half of 30px height, adjust as needed
+            sliderCtx.moveTo(0, 15);
             sliderCtx.lineTo(sliderCanvas.width, 15);
             sliderCtx.stroke();
         
@@ -121,13 +106,10 @@ function updateLeftCanvas(newRatio) {
 
 // p5.js sketch
 function setup() {
-    // Create the left canvas using p5.js functions
-    // console.log("Updating ratio:", newRatio);
-    createCanvas(400, 400).parent('leftCanvasContainer'); // Adjust width and height as needed
+    createCanvas(400, 400).parent('leftCanvasContainer');
 }
 
 function draw() {
-    // Use the global ratio variable to draw something on the left canvas
     console.log("Drawing with ratio:", ratio);
     background(200);
     fill(150);
