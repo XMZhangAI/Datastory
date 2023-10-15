@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (!acc[item.Year]) {
                     acc[item.Year] = {};
                 }
-                acc[item.Year][item["Energy Type"]] = item.TWh;
+                acc[item.Year][item.Type] = item.Value;
                 return acc;
             }, {});
 
@@ -17,25 +17,25 @@ document.addEventListener("DOMContentLoaded", function() {
             const datasets = [
                 {
                     label: 'Other Renewables',
-                    data: labels.map(year => groupedData[year]["Other renewables (including geothermal and biomass) electricity generation - TWh"] || 0),
+                    data: labels.map(year => groupedData[year]["Other Renewables"] || 0),
                     borderColor: 'green',
                     fill: false
                 },
                 {
                     label: 'Solar Generation',
-                    data: labels.map(year => groupedData[year]["Solar generation - TWh"] || 0),
+                    data: labels.map(year => groupedData[year]["Solar"] || 0),
                     borderColor: 'yellow',
                     fill: false
                 },
                 {
                     label: 'Wind generation',
-                    data: labels.map(year => groupedData[year]["Wind generation - TWh"] || 0),
+                    data: labels.map(year => groupedData[year]["Wind"] || 0),
                     borderColor: 'red',
                     fill: false
                 },
                 {
                     label: 'Hydro generation',
-                    data: labels.map(year => groupedData[year]["Hydro generation - TWh"] || 0),
+                    data: labels.map(year => groupedData[year]["Hydro"] || 0),
                     borderColor: 'blue',
                     fill: false
                 }
