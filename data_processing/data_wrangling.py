@@ -3,6 +3,7 @@ import pandas as pd
 # load in data
 filepath = "data/modern-renewable-energy-consumption.csv"
 data = pd.read_csv(filepath)
+
 # process data
 processed_data = data[data["Entity"] == "Norway"]
 melted_data = pd.melt(
@@ -17,6 +18,19 @@ melted_data = pd.melt(
     var_name="Energy Type",
     value_name="TWh",
 )
+
+# Replace long energy type names with shorter ones
+energy_type_mapping = {
+    "Other renewables (including geothermal and biomass) electricity generation - TWh": "Other Renewables",
+    "Solar generation - TWh": "Solar",
+    "Wind generation - TWh": "Wind",
+    "Hydro generation - TWh": "Hydro",
+}
+
+melted_data["Energy Type"] = melted_data["Energy Type"].replace(energy_type_mapping)
+
+# Rename columns
+melted_data.columns = ["Year", "Type", "Value"]
 
 # store processed data as JSON
 melted_data.to_json(
