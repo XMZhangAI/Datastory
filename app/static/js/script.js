@@ -1,23 +1,29 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const startYear = 1960;  // set start year
     fetch("/api/data")
         .then(response => response.json())
         .then(data => {
             console.log(data);
-            
-            // Group data by year
-            const groupedData = data.reduce((acc, item) => {
+
+            // Filter data by start year
+            const filteredData = data.filter(item => item.Year >= startYear);
+
+            // Group data by year (because of melt function in data wrangling - pd_modern-renewable-energy-consumption)
+            const groupedData = filteredData.reduce((acc, item) => {
                 if (!acc[item.Year]) {
-                    acc[item.Year] = {
-                        "Forest area": item["Forest area"]
-                    };
+                    acc[item.Year] = {};
                 }
                 acc[item.Year][item["Energy Type"]] = item.Value;
+                // rest of data
+                acc[item.Year]["Annual CO\u2082 emissions"] = item["Annual CO\u2082 emissions"];
+                acc[item.Year]["Forest area"] = item["Forest area"];
+                acc[item.Year]["Normalized Temperature"] = item["Normalized Temperature"]
                 return acc;
             }, {});
 
             const labels = Object.keys(groupedData);
-            const energyTypes = ["Other Renewables", "Solar", "Wind", "Hydro", "Forest area"];
-            const colors = ['green', 'orange', 'blue', 'purple', 'brown'];
+            const energyTypes = ["Other Renewables", "Solar", "Wind", "Hydro", "Forest area", "Annual CO\u2082 emissions", "Normalized Temperature"];
+            const colors = ['green', 'orange', 'blue', 'purple', 'brown', 'black', 'red'];
 
             const datasets = energyTypes.map((type, index) => {
                 return {

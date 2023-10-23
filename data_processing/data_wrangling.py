@@ -94,3 +94,7 @@ pd_2 = process_and_normalize_data(
     var_name=var_name,
     value_mapping=value_mapping,
 )
+
+pd_3 = process_and_normalize_data(
+    "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
+)
