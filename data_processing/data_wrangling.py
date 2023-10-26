@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 import os
 
@@ -57,18 +58,69 @@ def process_and_normalize_data(
         # print(f"Max value before normalization: {max_val}")
         # print("Sample of data after normalization:", norway_data.head())
 
+    # create an empty dict for processed data
+    processed_data = {}
+
+    # iterate through each row in the dataframe
+    processed_data = {}
+    for index, row in norway_data.iterrows():
+        year = row["Year"]
+        if year not in processed_data:
+            processed_data[year] = {"Year": int(year)}
+        for col in norway_data.columns:
+            if col != "Year":
+                processed_data[year][col] = row[col]
+
+    # Convert data to a list
+    processed_data_list = list(processed_data.values())
+
     # Create a new filename and save as JSON
     file_name = "pd_" + os.path.basename(file_path).replace(".csv", ".json")
     output_path = os.path.join(output_folder, file_name)
-    norway_data.to_json(output_path, orient="records")
+    with open(output_path, "w") as f:
+        json.dump(processed_data_list, f, indent=4)
 
     return output_path
+
+
+def process_energy_data(
+    file_path,
+    y_columns,
+    output_folder="data/processed",
+    value_vars=None,
+    value_mapping=None,
+):
+    data = pd.read_csv(file_path)
+    norway_data = data[data["Entity"] == "Norway"].copy()
+    norway_data = norway_data.drop(columns=["Entity", "Code"])
+
+    for value_var in value_vars:
+        single_energy_type_data = norway_data[["Year", value_var]].copy()
+
+        processed_data = {}
+        for index, row in single_energy_type_data.iterrows():
+            year = row["Year"]
+            value = row[value_var]
+            if year not in processed_data:
+                processed_data[year] = {"Year": int(year)}
+            processed_data[year][value_var] = value
+
+        processed_data_list = list(processed_data.values())
+        energy_type_name = value_mapping.get(value_var, value_var)
+        file_name = f"pd_{energy_type_name}.json"
+        output_path = os.path.join(output_folder, file_name)
+        with open(output_path, "w") as f:
+            json.dump(processed_data_list, f, indent=4)
 
 
 # Preprocessing data
 pd_1 = process_and_normalize_data("data/raw/forest-area-km.csv", ["Forest area"])
 
-# -------------pd_2 set up-------------#
+pd_2 = process_and_normalize_data(
+    "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
+)
+
+# -------------pd_3 set up-------------#
 
 value_vars = [
     "Other renewables (including geothermal and biomass) electricity generation - TWh",
@@ -87,14 +139,9 @@ value_mapping = {
     "Hydro generation - TWh": "Hydro",
 }
 
-pd_2 = process_and_normalize_data(
+pd_2 = process_energy_data(
     "data/raw/modern-renewable-energy-consumption.csv",
     value_names,
     value_vars=value_vars,
-    var_name=var_name,
     value_mapping=value_mapping,
-)
-
-pd_3 = process_and_normalize_data(
-    "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
 )
