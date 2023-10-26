@@ -53,9 +53,11 @@ Your team: Who is involved and what are their roles?
 
 But we still try to help each other and discuss the project. 
 
-When we started the project we had a problem with the group set up. One member left the group and the course, and we had to try to start the project again. We ended changing the project from 5 to 6, as this was a better fit for us that were left in the group. We used a couple of weeks on this and we started working on the project later.
-
 ## Challenges and Solutions (1-2 minutes):
+
+When we started the project we had a problem with the group set up. One member left the group and the course, and we had to try to start the project again. We ended changing the project from 5 to 6, as this was a better fit for us that were left in the group. We used a couple of weeks on this and we started working on the project later. 
+
+Another challenge I have faced is how to collect and present the data. We have used different sources to find good dataset, but some datasets have been more challenging to find than others. Also the presentation of the data in one graph could be  a problematic. The idea wash to show everything like we 
 
 Discuss any challenges you encountered along the way and how you solved them.
 If there were any particular insights or learnings obtained from these challenges, share those.
