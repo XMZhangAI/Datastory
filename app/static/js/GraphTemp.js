@@ -1,6 +1,12 @@
 // Global variables - needed by both functions
-let x, margin;
+//let x, margin;
 
+// I GraphTemp.js
+let GraphTemp = {
+    x: null,
+    margin: null,
+    // ... andre variabler og funksjoner
+};
 
 document.addEventListener("DOMContentLoaded", function() {
     fetch('/api/data/temperature')  
@@ -29,11 +35,12 @@ function updateCanvas(val, data, maxValue, minValue) {
 
         // Update vertical line and rectangle
         d3.select('#vertical-line')
-            .attr('x1', x(val))
-            .attr('x2', x(val));
+        .attr('x1', GraphTemp.x(val))
+        .attr('x2', GraphTemp.x(val));
 
         d3.select('#shade-rect')
-            .attr('width', x(val) - margin.left);
+        .attr('width', GraphTemp.x(val) - GraphTemp.margin.left);
+
     } else {
         console.log("No data found for year: ", val);
     }
@@ -47,33 +54,34 @@ function createLineChart(data) {
     const minValue = d3.min(data, d => d.Temperature);
 
     // Update the global vars x and margin
-    margin = {top: 20, right: 30, bottom: 30, left: 40};
+    GraphTemp.margin = {top: 20, right: 30, bottom: 30, left: 40};
 
-    const width = 500 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+    const width = 500 - GraphTemp.margin.left - GraphTemp.margin.right,
+        height = 500 - GraphTemp.margin.top - GraphTemp.margin.bottom;
          
-    x = d3.scaleLinear()
+    GraphTemp.x = d3.scaleLinear()
         .domain([d3.min(data, d => d.Year), d3.max(data, d => d.Year)])
-        .range([margin.left, width - margin.right]);
+        .range([GraphTemp.margin.left, width - GraphTemp.margin.right]);
 
 
     const y = d3.scaleLinear()
     .domain([d3.min(data, d => d.Temperature), d3.max(data, d => d.Temperature)]) 
     .nice()
-    .range([height - margin.bottom, margin.top]);
+    .range([height - GraphTemp.margin.bottom, GraphTemp.margin.top]); 
 
     const xAxis = g => g
-        .attr("transform", `translate(0,${height - margin.bottom})`)
-        .call(d3.axisBottom(x).ticks(width / 80).tickFormat(d3.format("d")).tickSizeOuter(0));
+        .attr("transform", `translate(0,${height - GraphTemp.margin.bottom})`)  // Endret margin til GraphTemp.margin
+        .call(d3.axisBottom(GraphTemp.x).ticks(width / 80).tickFormat(d3.format("d")).tickSizeOuter(0));  // Endret x til GraphTemp.x
+
 
     const yAxis = g => g
-        .attr("transform", `translate(${margin.left},0)`)
+        .attr("transform", `translate(${GraphTemp.margin.left},0)`)
         .call(d3.axisLeft(y))
         .call(g => g.select(".domain").remove());
 
     const line = d3.line()
     .defined(d => !isNaN(d.Temperature)) 
-    .x(d => x(d.Year))
+    .x(d => GraphTemp.x(d.Year))
     .y(d => y(d.Temperature)); 
 
     const svg = d3.select("#chart");
@@ -93,19 +101,19 @@ function createLineChart(data) {
     // Initial setup for vertical line and shaded rectangle
     svg.append('line')
         .attr('id', 'vertical-line')
-        .attr('x1', margin.left)
-        .attr('y1', margin.top)
-        .attr('x2', margin.left)
-        .attr('y2', height - margin.bottom)
+        .attr('x1', GraphTemp.margin.left)
+        .attr('y1', GraphTemp.margin.top)
+        .attr('x2', GraphTemp.margin.left)
+        .attr('y2', height - GraphTemp.margin.bottom)
         .attr('stroke', 'black')
         .attr('stroke-width', 1);
 
         svg.append('rect')
         .attr('id', 'shade-rect')
-        .attr('x', margin.left)
-        .attr('y', margin.top)
+        .attr('x', GraphTemp.margin.left)
+        .attr('y', GraphTemp.margin.top)
         .attr('width', 0)
-        .attr('height', height - margin.top - margin.bottom)
+        .attr('height', height - GraphTemp.margin.top - GraphTemp.margin.bottom)
         .attr('fill', 'rgba(0, 0, 0, 0.1)');  // Change color and opacity
 
     svg.append("text")
@@ -116,7 +124,7 @@ function createLineChart(data) {
     svg.append("text")
     .attr("class", "y label")
     .attr("text-anchor", "middle")
-    .attr("y", margin.left - 40)  // adjust this value to place text
+    .attr("y", GraphTemp.margin.left - 40)  // adjust this value to place text
     .attr("x", -height / 2)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
@@ -126,7 +134,7 @@ function createLineChart(data) {
     .attr("class", "title")
     .attr("text-anchor", "middle")
     .attr("x", width / 2)
-    .attr("y", margin.top - 5)  // adjust this value to place text
+    .attr("y", GraphTemp.margin.top - 5)  // adjust this value to place text
     .text("Yearly average temperature in Norway");
 
     // slider
@@ -134,7 +142,7 @@ function createLineChart(data) {
         .min(d3.min(data, d => d.Year))
         .max(d3.max(data, d => d.Year))
         .step(1)
-        .width(width - margin.left - margin.right)
+        .width(width - GraphTemp.margin.left - GraphTemp.margin.right)
         .tickFormat(d3.format('d'))
         .ticks(10)
         .default(d3.min(data, d => d.Year))
@@ -144,7 +152,7 @@ function createLineChart(data) {
 
     let gSlider = d3.select('#chart')
     .append('g')
-    .attr('transform', `translate(${margin.left},${y(-1) + 20})`); // adjust this value to place slider
+    .attr('transform', `translate(${GraphTemp.margin.left},${y(-1) + 20})`); // adjust this value to place slider
     
     gSlider.call(slider);
 
