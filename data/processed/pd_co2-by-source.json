@@ -1,1712 +1,1712 @@
 [
     {
         "Year": 1990,
-        "Annual CO\u2082 emissions from other industry": 1.0,
-        "Annual CO\u2082 emissions from flaring": 0.6766997167138811,
-        "Annual CO\u2082 emissions from cement": 0.4672108616945311,
-        "Annual CO\u2082 emissions from gas": 0.4838772088223913,
-        "Annual CO\u2082 emissions from oil": 0.800731759347525,
-        "Annual CO\u2082 emissions from coal": 0.36018389044691473
+        "Annual CO\u2082 emissions from other industry": 1016000.06,
+        "Annual CO\u2082 emissions from flaring": 1911000.0,
+        "Annual CO\u2082 emissions from cement": 634000.0,
+        "Annual CO\u2082 emissions from gas": 7503000.0,
+        "Annual CO\u2082 emissions from oil": 20344400.0,
+        "Annual CO\u2082 emissions from coal": 3688600.0
     },
     {
         "Year": 1991,
-        "Annual CO\u2082 emissions from other industry": 0.9114172690107911,
-        "Annual CO\u2082 emissions from flaring": 0.4939801699716714,
-        "Annual CO\u2082 emissions from cement": 0.4362599844213918,
-        "Annual CO\u2082 emissions from gas": 0.5049013285179931,
-        "Annual CO\u2082 emissions from oil": 0.7686385702354367,
-        "Annual CO\u2082 emissions from coal": 0.3187226097757224
+        "Annual CO\u2082 emissions from other industry": 926000.0,
+        "Annual CO\u2082 emissions from flaring": 1395000.0,
+        "Annual CO\u2082 emissions from cement": 592000.0,
+        "Annual CO\u2082 emissions from gas": 7829000.0,
+        "Annual CO\u2082 emissions from oil": 19529000.0,
+        "Annual CO\u2082 emissions from coal": 3264000.0
     },
     {
         "Year": 1992,
-        "Annual CO\u2082 emissions from other industry": 0.9537401011570806,
-        "Annual CO\u2082 emissions from flaring": 0.49079320113314445,
-        "Annual CO\u2082 emissions from cement": 0.48121244903237975,
-        "Annual CO\u2082 emissions from gas": 0.5376628401908938,
-        "Annual CO\u2082 emissions from oil": 0.7799817847339697,
-        "Annual CO\u2082 emissions from coal": 0.3215348680972729
+        "Annual CO\u2082 emissions from other industry": 969000.0,
+        "Annual CO\u2082 emissions from flaring": 1386000.0,
+        "Annual CO\u2082 emissions from cement": 653000.0,
+        "Annual CO\u2082 emissions from gas": 8337000.0,
+        "Annual CO\u2082 emissions from oil": 19817200.0,
+        "Annual CO\u2082 emissions from coal": 3292800.0
     },
     {
         "Year": 1993,
-        "Annual CO\u2082 emissions from other industry": 0.92913380339761,
-        "Annual CO\u2082 emissions from flaring": 0.5662181303116147,
-        "Annual CO\u2082 emissions from cement": 0.6175436941640647,
-        "Annual CO\u2082 emissions from gas": 0.5624919386044112,
-        "Annual CO\u2082 emissions from oil": 0.7948830373680593,
-        "Annual CO\u2082 emissions from coal": 0.36141425346259304
+        "Annual CO\u2082 emissions from other industry": 944000.0,
+        "Annual CO\u2082 emissions from flaring": 1599000.0,
+        "Annual CO\u2082 emissions from cement": 838000.0,
+        "Annual CO\u2082 emissions from gas": 8722000.0,
+        "Annual CO\u2082 emissions from oil": 20195800.0,
+        "Annual CO\u2082 emissions from coal": 3701200.0
     },
     {
         "Year": 1994,
-        "Annual CO\u2082 emissions from other industry": 0.9389763225013982,
-        "Annual CO\u2082 emissions from flaring": 0.5938385269121813,
-        "Annual CO\u2082 emissions from cement": 0.6227021737095879,
-        "Annual CO\u2082 emissions from gas": 0.6077647362311364,
-        "Annual CO\u2082 emissions from oil": 0.8240243143101618,
-        "Annual CO\u2082 emissions from coal": 0.3973096062057167
+        "Annual CO\u2082 emissions from other industry": 954000.0,
+        "Annual CO\u2082 emissions from flaring": 1677000.0,
+        "Annual CO\u2082 emissions from cement": 845000.0,
+        "Annual CO\u2082 emissions from gas": 9424000.0,
+        "Annual CO\u2082 emissions from oil": 20936200.0,
+        "Annual CO\u2082 emissions from coal": 4068800.0
     },
     {
         "Year": 1995,
-        "Annual CO\u2082 emissions from other industry": 0.8996062460862453,
-        "Annual CO\u2082 emissions from flaring": 0.6419971671388102,
-        "Annual CO\u2082 emissions from cement": 0.6448099431904016,
-        "Annual CO\u2082 emissions from gas": 0.6060234747839546,
-        "Annual CO\u2082 emissions from oil": 0.8411375331302943,
-        "Annual CO\u2082 emissions from coal": 0.4040668380061089
+        "Annual CO\u2082 emissions from other industry": 914000.0,
+        "Annual CO\u2082 emissions from flaring": 1813000.0,
+        "Annual CO\u2082 emissions from cement": 875000.0,
+        "Annual CO\u2082 emissions from gas": 9397000.0,
+        "Annual CO\u2082 emissions from oil": 21371000.0,
+        "Annual CO\u2082 emissions from coal": 4138000.0
     },
     {
         "Year": 1996,
-        "Annual CO\u2082 emissions from other industry": 0.9379920705910194,
-        "Annual CO\u2082 emissions from flaring": 0.7287535764872521,
-        "Annual CO\u2082 emissions from cement": 0.6359668353980762,
-        "Annual CO\u2082 emissions from gas": 0.652521604540178,
-        "Annual CO\u2082 emissions from oil": 0.9225552066614031,
-        "Annual CO\u2082 emissions from coal": 0.40430119286623806
+        "Annual CO\u2082 emissions from other industry": 953000.0,
+        "Annual CO\u2082 emissions from flaring": 2058000.1,
+        "Annual CO\u2082 emissions from cement": 863000.0,
+        "Annual CO\u2082 emissions from gas": 10118000.0,
+        "Annual CO\u2082 emissions from oil": 23439600.0,
+        "Annual CO\u2082 emissions from coal": 4140400.0
     },
     {
         "Year": 1997,
-        "Annual CO\u2082 emissions from other industry": 0.9527558492467018,
-        "Annual CO\u2082 emissions from flaring": 0.681657223796034,
-        "Annual CO\u2082 emissions from cement": 0.6794454487103433,
-        "Annual CO\u2082 emissions from gas": 0.6804462788597962,
-        "Annual CO\u2082 emissions from oil": 0.9114087863075357,
-        "Annual CO\u2082 emissions from coal": 0.4112537203834046
+        "Annual CO\u2082 emissions from other industry": 968000.0,
+        "Annual CO\u2082 emissions from flaring": 1925000.0,
+        "Annual CO\u2082 emissions from cement": 922000.0,
+        "Annual CO\u2082 emissions from gas": 10551000.0,
+        "Annual CO\u2082 emissions from oil": 23156400.0,
+        "Annual CO\u2082 emissions from coal": 4211600.0
     },
     {
         "Year": 1998,
-        "Annual CO\u2082 emissions from other industry": 0.8789369559682899,
-        "Annual CO\u2082 emissions from flaring": 0.7067988668555241,
-        "Annual CO\u2082 emissions from cement": 0.6632330844244132,
-        "Annual CO\u2082 emissions from gas": 0.6358183928801754,
-        "Annual CO\u2082 emissions from oil": 0.9369920251140815,
-        "Annual CO\u2082 emissions from coal": 0.43127153135277435
+        "Annual CO\u2082 emissions from other industry": 893000.0,
+        "Annual CO\u2082 emissions from flaring": 1996000.0,
+        "Annual CO\u2082 emissions from cement": 900000.0,
+        "Annual CO\u2082 emissions from gas": 9859000.0,
+        "Annual CO\u2082 emissions from oil": 23806400.0,
+        "Annual CO\u2082 emissions from coal": 4416600.0
     },
     {
         "Year": 1999,
-        "Annual CO\u2082 emissions from other industry": 0.7736220015577557,
-        "Annual CO\u2082 emissions from flaring": 0.9242209631728046,
-        "Annual CO\u2082 emissions from cement": 0.6573376792295295,
-        "Annual CO\u2082 emissions from gas": 0.6200825486908293,
-        "Annual CO\u2082 emissions from oil": 0.9576790256013439,
-        "Annual CO\u2082 emissions from coal": 0.4297482247619345
+        "Annual CO\u2082 emissions from other industry": 786000.0,
+        "Annual CO\u2082 emissions from flaring": 2610000.0,
+        "Annual CO\u2082 emissions from cement": 892000.0,
+        "Annual CO\u2082 emissions from gas": 9615000.0,
+        "Annual CO\u2082 emissions from oil": 24332000.0,
+        "Annual CO\u2082 emissions from coal": 4401000.0
     },
     {
         "Year": 2000,
-        "Annual CO\u2082 emissions from other industry": 0.7372046808737392,
-        "Annual CO\u2082 emissions from flaring": 0.9769830028328612,
-        "Annual CO\u2082 emissions from cement": 0.6558638279308086,
-        "Annual CO\u2082 emissions from gas": 0.7118534760737779,
-        "Annual CO\u2082 emissions from oil": 0.8811654621553052,
-        "Annual CO\u2082 emissions from coal": 0.4221316918077353
+        "Annual CO\u2082 emissions from other industry": 749000.0,
+        "Annual CO\u2082 emissions from flaring": 2759000.0,
+        "Annual CO\u2082 emissions from cement": 890000.0,
+        "Annual CO\u2082 emissions from gas": 11038000.0,
+        "Annual CO\u2082 emissions from oil": 22388000.0,
+        "Annual CO\u2082 emissions from coal": 4323000.0
     },
     {
         "Year": 2001,
-        "Annual CO\u2082 emissions from other industry": 0.8572834139399558,
-        "Annual CO\u2082 emissions from flaring": 0.839943342776204,
-        "Annual CO\u2082 emissions from cement": 0.6285975789044715,
-        "Annual CO\u2082 emissions from gas": 0.7818908809493099,
-        "Annual CO\u2082 emissions from oil": 0.9197371145097897,
-        "Annual CO\u2082 emissions from coal": 0.38453726632867485
+        "Annual CO\u2082 emissions from other industry": 871000.0,
+        "Annual CO\u2082 emissions from flaring": 2372000.0,
+        "Annual CO\u2082 emissions from cement": 853000.0,
+        "Annual CO\u2082 emissions from gas": 12124000.0,
+        "Annual CO\u2082 emissions from oil": 23368000.0,
+        "Annual CO\u2082 emissions from coal": 3938000.0
     },
     {
         "Year": 2002,
-        "Annual CO\u2082 emissions from other industry": 0.6978346044585864,
-        "Annual CO\u2082 emissions from flaring": 0.6770538243626062,
-        "Annual CO\u2082 emissions from cement": 0.6448099431904016,
-        "Annual CO\u2082 emissions from gas": 0.7929833612795048,
-        "Annual CO\u2082 emissions from oil": 0.9196820121492834,
-        "Annual CO\u2082 emissions from coal": 0.33526415698650897
+        "Annual CO\u2082 emissions from other industry": 709000.0,
+        "Annual CO\u2082 emissions from flaring": 1912000.0,
+        "Annual CO\u2082 emissions from cement": 875000.0,
+        "Annual CO\u2082 emissions from gas": 12296000.0,
+        "Annual CO\u2082 emissions from oil": 23366600.0,
+        "Annual CO\u2082 emissions from coal": 3433400.0
     },
     {
         "Year": 2003,
-        "Annual CO\u2082 emissions from other industry": 0.5285432758734285,
-        "Annual CO\u2082 emissions from flaring": 0.6292492917847026,
-        "Annual CO\u2082 emissions from cement": 0.666180787021855,
-        "Annual CO\u2082 emissions from gas": 0.8395459822004385,
-        "Annual CO\u2082 emissions from oil": 0.9627248274705734,
-        "Annual CO\u2082 emissions from coal": 0.3206560373717884
+        "Annual CO\u2082 emissions from other industry": 537000.0,
+        "Annual CO\u2082 emissions from flaring": 1777000.0,
+        "Annual CO\u2082 emissions from cement": 904000.0,
+        "Annual CO\u2082 emissions from gas": 13018000.0,
+        "Annual CO\u2082 emissions from oil": 24460200.0,
+        "Annual CO\u2082 emissions from coal": 3283800.0
     },
     {
         "Year": 2004,
-        "Annual CO\u2082 emissions from other industry": 0.4970472147413062,
-        "Annual CO\u2082 emissions from flaring": 0.6055240793201133,
-        "Annual CO\u2082 emissions from cement": 0.5276387649420887,
-        "Annual CO\u2082 emissions from gas": 0.876563910744228,
-        "Annual CO\u2082 emissions from oil": 0.9491381597228509,
-        "Annual CO\u2082 emissions from coal": 0.35826999242252616
+        "Annual CO\u2082 emissions from other industry": 505000.0,
+        "Annual CO\u2082 emissions from flaring": 1710000.0,
+        "Annual CO\u2082 emissions from cement": 716000.0,
+        "Annual CO\u2082 emissions from gas": 13592000.0,
+        "Annual CO\u2082 emissions from oil": 24115000.0,
+        "Annual CO\u2082 emissions from coal": 3669000.0
     },
     {
         "Year": 2005,
-        "Annual CO\u2082 emissions from other industry": 0.5098424895762309,
-        "Annual CO\u2082 emissions from flaring": 0.5619688385269122,
-        "Annual CO\u2082 emissions from cement": 0.5748020065011581,
-        "Annual CO\u2082 emissions from gas": 0.8656649039081645,
-        "Annual CO\u2082 emissions from oil": 0.9333867563838053,
-        "Annual CO\u2082 emissions from coal": 0.32411277155869417
+        "Annual CO\u2082 emissions from other industry": 518000.0,
+        "Annual CO\u2082 emissions from flaring": 1587000.0,
+        "Annual CO\u2082 emissions from cement": 780000.0,
+        "Annual CO\u2082 emissions from gas": 13423000.0,
+        "Annual CO\u2082 emissions from oil": 23714800.0,
+        "Annual CO\u2082 emissions from coal": 3319200.0
     },
     {
         "Year": 2006,
-        "Annual CO\u2082 emissions from other industry": 0.5236220163215345,
-        "Annual CO\u2082 emissions from flaring": 0.5049575070821529,
-        "Annual CO\u2082 emissions from cement": 0.5932251477351695,
-        "Annual CO\u2082 emissions from gas": 0.8769508577324906,
-        "Annual CO\u2082 emissions from oil": 0.97686251882336,
-        "Annual CO\u2082 emissions from coal": 0.26810195998781355
+        "Annual CO\u2082 emissions from other industry": 532000.0,
+        "Annual CO\u2082 emissions from flaring": 1426000.0,
+        "Annual CO\u2082 emissions from cement": 805000.0,
+        "Annual CO\u2082 emissions from gas": 13598000.0,
+        "Annual CO\u2082 emissions from oil": 24819400.0,
+        "Annual CO\u2082 emissions from coal": 2745600.0
     },
     {
         "Year": 2007,
-        "Annual CO\u2082 emissions from other industry": 0.48818894754789677,
-        "Annual CO\u2082 emissions from flaring": 1.0,
-        "Annual CO\u2082 emissions from cement": 0.6403883892942389,
-        "Annual CO\u2082 emissions from gas": 0.8973945569456985,
-        "Annual CO\u2082 emissions from oil": 0.9624257003706814,
-        "Annual CO\u2082 emissions from coal": 0.3036262508690659
+        "Annual CO\u2082 emissions from other industry": 496000.0,
+        "Annual CO\u2082 emissions from flaring": 2824000.0,
+        "Annual CO\u2082 emissions from cement": 869000.0,
+        "Annual CO\u2082 emissions from gas": 13915000.0,
+        "Annual CO\u2082 emissions from oil": 24452600.0,
+        "Annual CO\u2082 emissions from coal": 3109400.0
     },
     {
         "Year": 2008,
-        "Annual CO\u2082 emissions from other industry": 0.554133825543278,
-        "Annual CO\u2082 emissions from flaring": 0.8367563739376771,
-        "Annual CO\u2082 emissions from cement": 0.6138590659172624,
-        "Annual CO\u2082 emissions from gas": 0.9083580549464724,
-        "Annual CO\u2082 emissions from oil": 0.9321587609210911,
-        "Annual CO\u2082 emissions from coal": 0.3190546124942388
+        "Annual CO\u2082 emissions from other industry": 563000.0,
+        "Annual CO\u2082 emissions from flaring": 2363000.0,
+        "Annual CO\u2082 emissions from cement": 833000.0,
+        "Annual CO\u2082 emissions from gas": 14085000.0,
+        "Annual CO\u2082 emissions from oil": 23683600.0,
+        "Annual CO\u2082 emissions from coal": 3267400.0
     },
     {
         "Year": 2009,
-        "Annual CO\u2082 emissions from other industry": 0.4852361918167603,
-        "Annual CO\u2082 emissions from flaring": 0.5357648725212465,
-        "Annual CO\u2082 emissions from cement": 0.6204913967615066,
-        "Annual CO\u2082 emissions from gas": 0.9536308525731975,
-        "Annual CO\u2082 emissions from oil": 0.9146047232169073,
-        "Annual CO\u2082 emissions from coal": 0.22970682206997836
+        "Annual CO\u2082 emissions from other industry": 493000.0,
+        "Annual CO\u2082 emissions from flaring": 1513000.0,
+        "Annual CO\u2082 emissions from cement": 842000.0,
+        "Annual CO\u2082 emissions from gas": 14787000.0,
+        "Annual CO\u2082 emissions from oil": 23237600.0,
+        "Annual CO\u2082 emissions from coal": 2352400.0
     },
     {
         "Year": 2010,
-        "Annual CO\u2082 emissions from other industry": 0.7057086197416169,
-        "Annual CO\u2082 emissions from flaring": 0.5541784702549575,
-        "Annual CO\u2082 emissions from cement": 0.5556419396177862,
-        "Annual CO\u2082 emissions from gas": 0.9699471172449374,
-        "Annual CO\u2082 emissions from oil": 0.9655744066853332,
-        "Annual CO\u2082 emissions from coal": 0.30098975869261235
+        "Annual CO\u2082 emissions from other industry": 717000.0,
+        "Annual CO\u2082 emissions from flaring": 1565000.0,
+        "Annual CO\u2082 emissions from cement": 754000.0,
+        "Annual CO\u2082 emissions from gas": 15040000.0,
+        "Annual CO\u2082 emissions from oil": 24532600.0,
+        "Annual CO\u2082 emissions from coal": 3082400.0
     },
     {
         "Year": 2011,
-        "Annual CO\u2082 emissions from other industry": 0.6053149248829769,
-        "Annual CO\u2082 emissions from flaring": 0.5492209631728046,
-        "Annual CO\u2082 emissions from cement": 0.5519573113709838,
-        "Annual CO\u2082 emissions from gas": 0.925964142912421,
-        "Annual CO\u2082 emissions from oil": 0.9563959277781232,
-        "Annual CO\u2082 emissions from coal": 0.3142893970049449
+        "Annual CO\u2082 emissions from other industry": 615000.0,
+        "Annual CO\u2082 emissions from flaring": 1551000.0,
+        "Annual CO\u2082 emissions from cement": 749000.0,
+        "Annual CO\u2082 emissions from gas": 14358000.0,
+        "Annual CO\u2082 emissions from oil": 24299400.0,
+        "Annual CO\u2082 emissions from coal": 3218600.0
     },
     {
         "Year": 2012,
-        "Annual CO\u2082 emissions from other industry": 0.5787401233027486,
-        "Annual CO\u2082 emissions from flaring": 0.5038951841359773,
-        "Annual CO\u2082 emissions from cement": 0.5342710957863328,
-        "Annual CO\u2082 emissions from gas": 0.9081000902876306,
-        "Annual CO\u2082 emissions from oil": 0.9560968006782313,
-        "Annual CO\u2082 emissions from coal": 0.31161384568513645
+        "Annual CO\u2082 emissions from other industry": 588000.0,
+        "Annual CO\u2082 emissions from flaring": 1423000.0,
+        "Annual CO\u2082 emissions from cement": 725000.0,
+        "Annual CO\u2082 emissions from gas": 14081000.0,
+        "Annual CO\u2082 emissions from oil": 24291800.0,
+        "Annual CO\u2082 emissions from coal": 3191200.0
     },
     {
         "Year": 2013,
-        "Annual CO\u2082 emissions from other industry": 0.6112204363452498,
-        "Annual CO\u2082 emissions from flaring": 0.535056657223796,
-        "Annual CO\u2082 emissions from cement": 0.5386926496824956,
-        "Annual CO\u2082 emissions from gas": 0.8965561718044628,
-        "Annual CO\u2082 emissions from oil": 0.9654012278380274,
-        "Annual CO\u2082 emissions from coal": 0.3215348680972729
+        "Annual CO\u2082 emissions from other industry": 621000.0,
+        "Annual CO\u2082 emissions from flaring": 1511000.0,
+        "Annual CO\u2082 emissions from cement": 731000.0,
+        "Annual CO\u2082 emissions from gas": 13902000.0,
+        "Annual CO\u2082 emissions from oil": 24528200.0,
+        "Annual CO\u2082 emissions from coal": 3292800.0
     },
     {
         "Year": 2014,
-        "Annual CO\u2082 emissions from other industry": 0.6299212226424474,
-        "Annual CO\u2082 emissions from flaring": 0.4985835694050991,
-        "Annual CO\u2082 emissions from cement": 0.5357449470850537,
-        "Annual CO\u2082 emissions from gas": 0.9444731071843158,
-        "Annual CO\u2082 emissions from oil": 0.9485084184599205,
-        "Annual CO\u2082 emissions from coal": 0.3444039965315481
+        "Annual CO\u2082 emissions from other industry": 640000.0,
+        "Annual CO\u2082 emissions from flaring": 1408000.0,
+        "Annual CO\u2082 emissions from cement": 727000.0,
+        "Annual CO\u2082 emissions from gas": 14645000.0,
+        "Annual CO\u2082 emissions from oil": 24099000.0,
+        "Annual CO\u2082 emissions from coal": 3527000.0
     },
     {
         "Year": 2015,
-        "Annual CO\u2082 emissions from other industry": 0.5620078408263086,
-        "Annual CO\u2082 emissions from flaring": 0.5389518413597734,
-        "Annual CO\u2082 emissions from cement": 0.4952140363702285,
-        "Annual CO\u2082 emissions from gas": 1.0,
-        "Annual CO\u2082 emissions from oil": 0.9403060385102526,
-        "Annual CO\u2082 emissions from coal": 0.3347759176945731
+        "Annual CO\u2082 emissions from other industry": 571000.0,
+        "Annual CO\u2082 emissions from flaring": 1522000.0,
+        "Annual CO\u2082 emissions from cement": 672000.0,
+        "Annual CO\u2082 emissions from gas": 15506000.0,
+        "Annual CO\u2082 emissions from oil": 23890600.0,
+        "Annual CO\u2082 emissions from coal": 3428400.0
     },
     {
         "Year": 2016,
-        "Annual CO\u2082 emissions from other industry": 0.5462598102602474,
-        "Annual CO\u2082 emissions from flaring": 0.5194759206798867,
-        "Annual CO\u2082 emissions from cement": 0.504057144162554,
-        "Annual CO\u2082 emissions from gas": 0.9765252160454018,
-        "Annual CO\u2082 emissions from oil": 0.9197134992124298,
-        "Annual CO\u2082 emissions from coal": 0.3466108381310981
+        "Annual CO\u2082 emissions from other industry": 555000.0,
+        "Annual CO\u2082 emissions from flaring": 1467000.0,
+        "Annual CO\u2082 emissions from cement": 684000.0,
+        "Annual CO\u2082 emissions from gas": 15142000.0,
+        "Annual CO\u2082 emissions from oil": 23367400.0,
+        "Annual CO\u2082 emissions from coal": 3549600.0
     },
     {
         "Year": 2017,
-        "Annual CO\u2082 emissions from other industry": 0.5196850086800191,
-        "Annual CO\u2082 emissions from flaring": 0.39128895184135976,
-        "Annual CO\u2082 emissions from cement": 0.5644850474101116,
-        "Annual CO\u2082 emissions from gas": 0.9998710176705792,
-        "Annual CO\u2082 emissions from oil": 0.8932958532325013,
-        "Annual CO\u2082 emissions from coal": 0.3557116185327823
+        "Annual CO\u2082 emissions from other industry": 528000.0,
+        "Annual CO\u2082 emissions from flaring": 1105000.0,
+        "Annual CO\u2082 emissions from cement": 766000.0,
+        "Annual CO\u2082 emissions from gas": 15504000.0,
+        "Annual CO\u2082 emissions from oil": 22696200.0,
+        "Annual CO\u2082 emissions from coal": 3642800.0
     },
     {
         "Year": 2018,
-        "Annual CO\u2082 emissions from other industry": 0.5403542987979745,
-        "Annual CO\u2082 emissions from flaring": 0.38208215297450426,
-        "Annual CO\u2082 emissions from cement": 0.5379557240331351,
-        "Annual CO\u2082 emissions from gas": 0.9865213465755192,
-        "Annual CO\u2082 emissions from oil": 0.9135656501330722,
-        "Annual CO\u2082 emissions from coal": 0.3443844669598706
+        "Annual CO\u2082 emissions from other industry": 549000.0,
+        "Annual CO\u2082 emissions from flaring": 1079000.0,
+        "Annual CO\u2082 emissions from cement": 730000.0,
+        "Annual CO\u2082 emissions from gas": 15297000.0,
+        "Annual CO\u2082 emissions from oil": 23211200.0,
+        "Annual CO\u2082 emissions from coal": 3526800.0
     },
     {
         "Year": 2019,
-        "Annual CO\u2082 emissions from other industry": 0.5531495736328992,
-        "Annual CO\u2082 emissions from flaring": 0.33888101983002833,
-        "Annual CO\u2082 emissions from cement": 0.5320603188382514,
-        "Annual CO\u2082 emissions from gas": 0.9703985553979105,
-        "Annual CO\u2082 emissions from oil": 0.8638948080194401,
-        "Annual CO\u2082 emissions from coal": 0.34633742412761404
+        "Annual CO\u2082 emissions from other industry": 562000.0,
+        "Annual CO\u2082 emissions from flaring": 957000.0,
+        "Annual CO\u2082 emissions from cement": 722000.0,
+        "Annual CO\u2082 emissions from gas": 15047000.0,
+        "Annual CO\u2082 emissions from oil": 21949200.0,
+        "Annual CO\u2082 emissions from coal": 3546800.0
     },
     {
         "Year": 2020,
-        "Annual CO\u2082 emissions from other industry": 0.5275590239630498,
-        "Annual CO\u2082 emissions from flaring": 0.29390934844192634,
-        "Annual CO\u2082 emissions from cement": 0.5342710957863328,
-        "Annual CO\u2082 emissions from gas": 0.9233200051592931,
-        "Annual CO\u2082 emissions from oil": 0.8338404062460887,
-        "Annual CO\u2082 emissions from coal": 0.3517666450539407
+        "Annual CO\u2082 emissions from other industry": 536000.0,
+        "Annual CO\u2082 emissions from flaring": 830000.0,
+        "Annual CO\u2082 emissions from cement": 725000.0,
+        "Annual CO\u2082 emissions from gas": 14317000.0,
+        "Annual CO\u2082 emissions from oil": 21185600.0,
+        "Annual CO\u2082 emissions from coal": 3602400.0
     },
     {
         "Year": 2021,
-        "Annual CO\u2082 emissions from other industry": 0.3641928918783725,
-        "Annual CO\u2082 emissions from flaring": 0.5378399433427762,
-        "Annual CO\u2082 emissions from cement": 0.5167727962422687,
-        "Annual CO\u2082 emissions from gas": 0.8172857603508319,
-        "Annual CO\u2082 emissions from oil": 0.8453482980848781,
-        "Annual CO\u2082 emissions from coal": 0.4079336931982408
+        "Annual CO\u2082 emissions from other industry": 370020.0,
+        "Annual CO\u2082 emissions from flaring": 1518860.0,
+        "Annual CO\u2082 emissions from cement": 701255.0,
+        "Annual CO\u2082 emissions from gas": 12672833.0,
+        "Annual CO\u2082 emissions from oil": 21477984.0,
+        "Annual CO\u2082 emissions from coal": 4177600.0
     },
     {
         "Year": 1829,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.001073345259391771
+        "Annual CO\u2082 emissions from coal": 10992.0
     },
     {
         "Year": 1830,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.0007155635062611807
+        "Annual CO\u2082 emissions from coal": 7328.0
     },
     {
         "Year": 1831,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.00035778175313059033
+        "Annual CO\u2082 emissions from coal": 3664.0
     },
     {
         "Year": 1835,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.0014311270125223613
+        "Annual CO\u2082 emissions from coal": 14656.0
     },
     {
         "Year": 1836,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.0017889087656529517
+        "Annual CO\u2082 emissions from coal": 18320.0
     },
     {
         "Year": 1837,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.0025044722719141325
+        "Annual CO\u2082 emissions from coal": 25648.0
     },
     {
         "Year": 1838,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.005008944543828265
+        "Annual CO\u2082 emissions from coal": 51296.0
     },
     {
         "Year": 1839,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.003935599284436494
+        "Annual CO\u2082 emissions from coal": 40304.0
     },
     {
         "Year": 1840,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.004293381037567084
+        "Annual CO\u2082 emissions from coal": 43968.0
     },
     {
         "Year": 1841,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.005724508050089445
+        "Annual CO\u2082 emissions from coal": 58624.0
     },
     {
         "Year": 1842,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.007155635062611807
+        "Annual CO\u2082 emissions from coal": 73280.0
     },
     {
         "Year": 1843,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.006082289803220036
+        "Annual CO\u2082 emissions from coal": 62288.0
     },
     {
         "Year": 1844,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.0064400715563506265
+        "Annual CO\u2082 emissions from coal": 65952.0
     },
     {
         "Year": 1845,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.00966010733452594
+        "Annual CO\u2082 emissions from coal": 98928.0
     },
     {
         "Year": 1846,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.00966010733452594
+        "Annual CO\u2082 emissions from coal": 98928.0
     },
     {
         "Year": 1847,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.01001788908765653
+        "Annual CO\u2082 emissions from coal": 102592.0
     },
     {
         "Year": 1848,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.012880143112701253
+        "Annual CO\u2082 emissions from coal": 131904.0
     },
     {
         "Year": 1849,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.01037567084078712
+        "Annual CO\u2082 emissions from coal": 106256.0
     },
     {
         "Year": 1850,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.013595706618962432
+        "Annual CO\u2082 emissions from coal": 139232.0
     },
     {
         "Year": 1851,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.014669051878354204
+        "Annual CO\u2082 emissions from coal": 150224.0
     },
     {
         "Year": 1852,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.014669051878354204
+        "Annual CO\u2082 emissions from coal": 150224.0
     },
     {
         "Year": 1853,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.016100178890876567
+        "Annual CO\u2082 emissions from coal": 164880.0
     },
     {
         "Year": 1854,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.02289803220035778
+        "Annual CO\u2082 emissions from coal": 234496.0
     },
     {
         "Year": 1855,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.02504472467209849
+        "Annual CO\u2082 emissions from coal": 256480.02
     },
     {
         "Year": 1856,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.029695885509839
+        "Annual CO\u2082 emissions from coal": 304112.0
     },
     {
         "Year": 1857,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.029695885509839
+        "Annual CO\u2082 emissions from coal": 304112.0
     },
     {
         "Year": 1858,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.026118067978533093
+        "Annual CO\u2082 emissions from coal": 267472.0
     },
     {
         "Year": 1859,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.03184257602862254
+        "Annual CO\u2082 emissions from coal": 326096.0
     },
     {
         "Year": 1860,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.03255813953488372
+        "Annual CO\u2082 emissions from coal": 333424.0
     },
     {
         "Year": 1861,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.04186046511627907
+        "Annual CO\u2082 emissions from coal": 428688.0
     },
     {
         "Year": 1862,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.036135957066189626
+        "Annual CO\u2082 emissions from coal": 370064.0
     },
     {
         "Year": 1863,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.035420393559928445
+        "Annual CO\u2082 emissions from coal": 362736.0
     },
     {
         "Year": 1864,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.04686940966010734
+        "Annual CO\u2082 emissions from coal": 479984.0
     },
     {
         "Year": 1865,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
         "Annual CO\u2082 emissions from oil": 0.0,
-        "Annual CO\u2082 emissions from coal": 0.046153846153846156
+        "Annual CO\u2082 emissions from coal": 472656.0
     },
     {
         "Year": 1866,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00014421074921105228,
-        "Annual CO\u2082 emissions from coal": 0.05044722426197748
+        "Annual CO\u2082 emissions from oil": 3664.0,
+        "Annual CO\u2082 emissions from coal": 516623.97
     },
     {
         "Year": 1867,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00014334485497452304,
-        "Annual CO\u2082 emissions from coal": 0.06010948277882369
+        "Annual CO\u2082 emissions from oil": 3642.0,
+        "Annual CO\u2082 emissions from coal": 615574.0
     },
     {
         "Year": 1868,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00014421074921105228,
-        "Annual CO\u2082 emissions from coal": 0.06153846153846154
+        "Annual CO\u2082 emissions from oil": 3664.0,
+        "Annual CO\u2082 emissions from coal": 630208.0
     },
     {
         "Year": 1869,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00014421074921105228,
-        "Annual CO\u2082 emissions from coal": 0.05366726296958855
+        "Annual CO\u2082 emissions from oil": 3664.0,
+        "Annual CO\u2082 emissions from coal": 549600.0
     },
     {
         "Year": 1870,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00028842149842210456,
-        "Annual CO\u2082 emissions from coal": 0.06082289803220036
+        "Annual CO\u2082 emissions from oil": 7328.0,
+        "Annual CO\u2082 emissions from coal": 622880.0
     },
     {
         "Year": 1871,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00043263224763315683,
-        "Annual CO\u2082 emissions from coal": 0.05867620751341682
+        "Annual CO\u2082 emissions from oil": 10992.0,
+        "Annual CO\u2082 emissions from coal": 600896.0
     },
     {
         "Year": 1872,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.00043263224763315683,
-        "Annual CO\u2082 emissions from coal": 0.0629695885509839
+        "Annual CO\u2082 emissions from oil": 10992.0,
+        "Annual CO\u2082 emissions from coal": 644864.0
     },
     {
         "Year": 1873,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0005800704208167272,
-        "Annual CO\u2082 emissions from coal": 0.06296158142659615
+        "Annual CO\u2082 emissions from oil": 14738.0,
+        "Annual CO\u2082 emissions from coal": 644782.0
     },
     {
         "Year": 1874,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0007210537460552613,
-        "Annual CO\u2082 emissions from coal": 0.07799642218246869
+        "Annual CO\u2082 emissions from oil": 18320.0,
+        "Annual CO\u2082 emissions from coal": 798752.0
     },
     {
         "Year": 1875,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0005789290147776659,
-        "Annual CO\u2082 emissions from coal": 0.09874259438641993
+        "Annual CO\u2082 emissions from oil": 14709.0,
+        "Annual CO\u2082 emissions from coal": 1011211.06
     },
     {
         "Year": 1876,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0007210537460552613,
-        "Annual CO\u2082 emissions from coal": 0.08658318425760286
+        "Annual CO\u2082 emissions from oil": 18320.0,
+        "Annual CO\u2082 emissions from coal": 886688.0
     },
     {
         "Year": 1877,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.001009475244477366,
-        "Annual CO\u2082 emissions from coal": 0.11663685152057245
+        "Annual CO\u2082 emissions from oil": 25648.0,
+        "Annual CO\u2082 emissions from coal": 1194464.0
     },
     {
         "Year": 1878,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0007186528574903393,
-        "Annual CO\u2082 emissions from coal": 0.104478228433494
+        "Annual CO\u2082 emissions from oil": 18259.0,
+        "Annual CO\u2082 emissions from coal": 1069949.0
     },
     {
         "Year": 1879,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0008652644952663137,
-        "Annual CO\u2082 emissions from coal": 0.10948121645796065
+        "Annual CO\u2082 emissions from oil": 21984.0,
+        "Annual CO\u2082 emissions from coal": 1121184.0
     },
     {
         "Year": 1880,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0008652644952663137,
-        "Annual CO\u2082 emissions from coal": 0.11985688729874776
+        "Annual CO\u2082 emissions from oil": 21984.0,
+        "Annual CO\u2082 emissions from coal": 1227440.0
     },
     {
         "Year": 1881,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0011536859936884182,
-        "Annual CO\u2082 emissions from coal": 0.12343470483005367
+        "Annual CO\u2082 emissions from oil": 29312.0,
+        "Annual CO\u2082 emissions from coal": 1264080.0
     },
     {
         "Year": 1882,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.000867507948515503,
-        "Annual CO\u2082 emissions from coal": 0.13595150026169625
+        "Annual CO\u2082 emissions from oil": 22041.0,
+        "Annual CO\u2082 emissions from coal": 1392263.0
     },
     {
         "Year": 1883,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0011536859936884182,
-        "Annual CO\u2082 emissions from coal": 0.14597495527728085
+        "Annual CO\u2082 emissions from oil": 29312.0,
+        "Annual CO\u2082 emissions from coal": 1494912.0
     },
     {
         "Year": 1884,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0013009667315562559,
-        "Annual CO\u2082 emissions from coal": 0.14918737452250197
+        "Annual CO\u2082 emissions from oil": 33054.0,
+        "Annual CO\u2082 emissions from coal": 1527810.0
     },
     {
         "Year": 1885,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0011536859936884182,
-        "Annual CO\u2082 emissions from coal": 0.17137745974955276
+        "Annual CO\u2082 emissions from oil": 29312.0,
+        "Annual CO\u2082 emissions from coal": 1755056.0
     },
     {
         "Year": 1886,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0013006125020958575,
-        "Annual CO\u2082 emissions from coal": 0.16707734100975696
+        "Annual CO\u2082 emissions from oil": 33045.0,
+        "Annual CO\u2082 emissions from coal": 1711019.0
     },
     {
         "Year": 1887,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0011536859936884182,
-        "Annual CO\u2082 emissions from coal": 0.16135957066189624
+        "Annual CO\u2082 emissions from oil": 29312.0,
+        "Annual CO\u2082 emissions from coal": 1652464.0
     },
     {
         "Year": 1888,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0015863182413215751,
-        "Annual CO\u2082 emissions from coal": 0.18604651162790697
+        "Annual CO\u2082 emissions from oil": 40304.0,
+        "Annual CO\u2082 emissions from coal": 1905280.0
     },
     {
         "Year": 1889,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0018716697510868941,
-        "Annual CO\u2082 emissions from coal": 0.21217219613939428
+        "Annual CO\u2082 emissions from oil": 47554.0,
+        "Annual CO\u2082 emissions from coal": 2172830.0
     },
     {
         "Year": 1890,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0017305289905326273,
-        "Annual CO\u2082 emissions from coal": 0.19856887298747763
+        "Annual CO\u2082 emissions from oil": 43968.0,
+        "Annual CO\u2082 emissions from coal": 2033520.0
     },
     {
         "Year": 1891,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.001877573575426866,
-        "Annual CO\u2082 emissions from coal": 0.2311199818765575
+        "Annual CO\u2082 emissions from oil": 47704.0,
+        "Annual CO\u2082 emissions from coal": 2366872.0
     },
     {
         "Year": 1892,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.002740004235009993,
-        "Annual CO\u2082 emissions from coal": 0.2339892665474061
+        "Annual CO\u2082 emissions from oil": 69616.0,
+        "Annual CO\u2082 emissions from coal": 2396256.0
     },
     {
         "Year": 1893,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0028842149842210453,
-        "Annual CO\u2082 emissions from coal": 0.2332737030411449
+        "Annual CO\u2082 emissions from oil": 73280.0,
+        "Annual CO\u2082 emissions from coal": 2388928.0
     },
     {
         "Year": 1894,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.003465426811076834,
-        "Annual CO\u2082 emissions from coal": 0.275123329245143
+        "Annual CO\u2082 emissions from oil": 88047.0,
+        "Annual CO\u2082 emissions from coal": 2817505.0
     },
     {
         "Year": 1895,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0033168472318542024,
-        "Annual CO\u2082 emissions from coal": 0.29051878354203936
+        "Annual CO\u2082 emissions from oil": 84272.0,
+        "Annual CO\u2082 emissions from coal": 2975168.0
     },
     {
         "Year": 1896,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0043263224763315684,
-        "Annual CO\u2082 emissions from coal": 0.29445438282647585
+        "Annual CO\u2082 emissions from oil": 109920.0,
+        "Annual CO\u2082 emissions from coal": 3015472.0
     },
     {
         "Year": 1897,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.004758954723964725,
-        "Annual CO\u2082 emissions from coal": 0.318783542039356
+        "Annual CO\u2082 emissions from oil": 120912.0,
+        "Annual CO\u2082 emissions from coal": 3264624.0
     },
     {
         "Year": 1898,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.004470533225542621,
-        "Annual CO\u2082 emissions from coal": 0.31949910554561717
+        "Annual CO\u2082 emissions from oil": 113584.0,
+        "Annual CO\u2082 emissions from coal": 3271952.0
     },
     {
         "Year": 1899,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.005047376615975119,
-        "Annual CO\u2082 emissions from coal": 0.3828264758497317
+        "Annual CO\u2082 emissions from oil": 128240.01,
+        "Annual CO\u2082 emissions from coal": 3920480.0
     },
     {
         "Year": 1900,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.004758954723964725,
-        "Annual CO\u2082 emissions from coal": 0.3939176906672083
+        "Annual CO\u2082 emissions from oil": 120912.0,
+        "Annual CO\u2082 emissions from coal": 4034063.8
     },
     {
         "Year": 1901,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.005629532661137014,
-        "Annual CO\u2082 emissions from coal": 0.3663553327448422
+        "Annual CO\u2082 emissions from oil": 143031.0,
+        "Annual CO\u2082 emissions from coal": 3751801.0
     },
     {
         "Year": 1902,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.005480008470019986,
-        "Annual CO\u2082 emissions from coal": 0.4007155830358329
+        "Annual CO\u2082 emissions from oil": 139232.0,
+        "Annual CO\u2082 emissions from coal": 4103680.2
     },
     {
         "Year": 1903,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.007072427329826199,
-        "Annual CO\u2082 emissions from coal": 0.3964070470506441
+        "Annual CO\u2082 emissions from oil": 179691.0,
+        "Annual CO\u2082 emissions from coal": 4059557.0
     },
     {
         "Year": 1904,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.006201062216075248,
-        "Annual CO\u2082 emissions from coal": 0.39069769394817633
+        "Annual CO\u2082 emissions from oil": 157552.0,
+        "Annual CO\u2082 emissions from coal": 4001088.2
     },
     {
         "Year": 1905,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0053310746613369564,
-        "Annual CO\u2082 emissions from coal": 0.3917827374210029
+        "Annual CO\u2082 emissions from oil": 135448.0,
+        "Annual CO\u2082 emissions from coal": 4012200.0
     },
     {
         "Year": 1906,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.005047376615975119,
-        "Annual CO\u2082 emissions from coal": 0.4
+        "Annual CO\u2082 emissions from oil": 128240.01,
+        "Annual CO\u2082 emissions from coal": 4096352.0
     },
     {
         "Year": 1907,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.005335797720808934,
-        "Annual CO\u2082 emissions from coal": 0.45366726296958854
+        "Annual CO\u2082 emissions from oil": 135568.0,
+        "Annual CO\u2082 emissions from coal": 4645952.0
     },
     {
         "Year": 1908,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.007792379028671332,
-        "Annual CO\u2082 emissions from coal": 0.5388069189366539
+        "Annual CO\u2082 emissions from oil": 197983.0,
+        "Annual CO\u2082 emissions from coal": 5517857.0
     },
     {
         "Year": 1909,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0076431697081857704,
-        "Annual CO\u2082 emissions from coal": 0.5438282647584973
+        "Annual CO\u2082 emissions from oil": 194192.0,
+        "Annual CO\u2082 emissions from coal": 5569280.0
     },
     {
         "Year": 1910,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.007787380457396823,
-        "Annual CO\u2082 emissions from coal": 0.5606440071556351
+        "Annual CO\u2082 emissions from oil": 197856.0,
+        "Annual CO\u2082 emissions from coal": 5741488.0
     },
     {
         "Year": 1911,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.008652644952663137,
-        "Annual CO\u2082 emissions from coal": 0.5720930232558139
+        "Annual CO\u2082 emissions from oil": 219840.0,
+        "Annual CO\u2082 emissions from coal": 5858736.0
     },
     {
         "Year": 1912,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.009950540908386029,
-        "Annual CO\u2082 emissions from coal": 0.6468694096601073
+        "Annual CO\u2082 emissions from oil": 252815.98,
+        "Annual CO\u2082 emissions from coal": 6624512.0
     },
     {
         "Year": 1913,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.009662120197140502,
-        "Annual CO\u2082 emissions from coal": 0.651520572450805
+        "Annual CO\u2082 emissions from oil": 245488.0,
+        "Annual CO\u2082 emissions from coal": 6672144.0
     },
     {
         "Year": 1914,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.010960016940039972,
-        "Annual CO\u2082 emissions from coal": 0.7255813953488373
+        "Annual CO\u2082 emissions from oil": 278464.0,
+        "Annual CO\u2082 emissions from coal": 7430592.0
     },
     {
         "Year": 1915,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.007639863566555386,
-        "Annual CO\u2082 emissions from coal": 0.8060905410472538
+        "Annual CO\u2082 emissions from oil": 194108.0,
+        "Annual CO\u2082 emissions from coal": 8255076.5
     },
     {
         "Year": 1916,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.012978967428994705,
-        "Annual CO\u2082 emissions from coal": 0.738819320214669
+        "Annual CO\u2082 emissions from oil": 329760.0,
+        "Annual CO\u2082 emissions from coal": 7566160.0
     },
     {
         "Year": 1917,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0070663267113415616,
-        "Annual CO\u2082 emissions from coal": 0.32379248658318427
+        "Annual CO\u2082 emissions from oil": 179536.0,
+        "Annual CO\u2082 emissions from coal": 3315920.0
     },
     {
         "Year": 1918,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.005335797720808934,
-        "Annual CO\u2082 emissions from coal": 0.4214669051878354
+        "Annual CO\u2082 emissions from oil": 135568.0,
+        "Annual CO\u2082 emissions from coal": 4316192.0
     },
     {
         "Year": 1919,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.014421074921105228,
-        "Annual CO\u2082 emissions from coal": 0.48085867620751344
+        "Annual CO\u2082 emissions from oil": 366400.0,
+        "Annual CO\u2082 emissions from coal": 4924416.0
     },
     {
         "Year": 1920,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.010238963193984712,
-        "Annual CO\u2082 emissions from coal": 0.49230769230769234
+        "Annual CO\u2082 emissions from oil": 260144.0,
+        "Annual CO\u2082 emissions from coal": 5041664.0
     },
     {
         "Year": 1921,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.010671595441617868,
-        "Annual CO\u2082 emissions from coal": 0.30304114490161
+        "Annual CO\u2082 emissions from oil": 271136.0,
+        "Annual CO\u2082 emissions from coal": 3103408.0
     },
     {
         "Year": 1922,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.018170554400592585,
-        "Annual CO\u2082 emissions from coal": 0.58783542039356
+        "Annual CO\u2082 emissions from oil": 461664.0,
+        "Annual CO\u2082 emissions from coal": 6019952.0
     },
     {
         "Year": 1923,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.01831476514980364,
-        "Annual CO\u2082 emissions from coal": 0.6178890876565295
+        "Annual CO\u2082 emissions from oil": 465328.0,
+        "Annual CO\u2082 emissions from coal": 6327728.0
     },
     {
         "Year": 1924,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.022352666127713104,
-        "Annual CO\u2082 emissions from coal": 0.6991055456171735
+        "Annual CO\u2082 emissions from oil": 567920.0,
+        "Annual CO\u2082 emissions from coal": 7159456.0
     },
     {
         "Year": 1925,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.022352666127713104,
-        "Annual CO\u2082 emissions from coal": 0.6862254025044723
+        "Annual CO\u2082 emissions from oil": 567920.0,
+        "Annual CO\u2082 emissions from coal": 7027552.0
     },
     {
         "Year": 1926,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": NaN,
+        "Annual CO\u2082 emissions from cement": 0.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.021920033880079945,
-        "Annual CO\u2082 emissions from coal": 0.5667262969588551
+        "Annual CO\u2082 emissions from oil": 556928.0,
+        "Annual CO\u2082 emissions from coal": 5803776.0
     },
     {
         "Year": 1927,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.09894111153443395,
+        "Annual CO\u2082 emissions from cement": 134262.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.024371616616667834,
-        "Annual CO\u2082 emissions from coal": 0.7728085867620751
+        "Annual CO\u2082 emissions from oil": 619216.0,
+        "Annual CO\u2082 emissions from coal": 7914240.0
     },
     {
         "Year": 1928,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11667596421194276,
+        "Annual CO\u2082 emissions from cement": 158328.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.026823199353255722,
-        "Annual CO\u2082 emissions from coal": 0.7434704830053668
+        "Annual CO\u2082 emissions from oil": 681504.0,
+        "Annual CO\u2082 emissions from coal": 7613792.0
     },
     {
         "Year": 1929,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11724044925935288,
+        "Annual CO\u2082 emissions from cement": 159094.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.03259162932169781,
-        "Annual CO\u2082 emissions from coal": 0.8332737030411449
+        "Annual CO\u2082 emissions from oil": 828064.0,
+        "Annual CO\u2082 emissions from coal": 8533456.0
     },
     {
         "Year": 1930,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11805843673014299,
+        "Annual CO\u2082 emissions from cement": 160204.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.03259162932169781,
-        "Annual CO\u2082 emissions from coal": 0.7556350626118068
+        "Annual CO\u2082 emissions from oil": 828064.0,
+        "Annual CO\u2082 emissions from coal": 7738368.0
     },
     {
         "Year": 1931,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.0808547453221802,
+        "Annual CO\u2082 emissions from cement": 109719.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.036612960232626425,
-        "Annual CO\u2082 emissions from coal": 0.6880603034114255
+        "Annual CO\u2082 emissions from oil": 930235.0,
+        "Annual CO\u2082 emissions from coal": 7046343.0
     },
     {
         "Year": 1932,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.08643990481868313,
+        "Annual CO\u2082 emissions from cement": 117298.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.04499375375384831,
-        "Annual CO\u2082 emissions from coal": 0.7209302325581395
+        "Annual CO\u2082 emissions from oil": 1143168.0,
+        "Annual CO\u2082 emissions from coal": 7382960.0
     },
     {
         "Year": 1933,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.08167789127251585,
+        "Annual CO\u2082 emissions from cement": 110836.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.052348501963611974,
-        "Annual CO\u2082 emissions from coal": 0.7556350626118068
+        "Annual CO\u2082 emissions from oil": 1330032.0,
+        "Annual CO\u2082 emissions from coal": 7738368.0
     },
     {
         "Year": 1934,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.09105895478887449,
+        "Annual CO\u2082 emissions from cement": 123566.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.05840535343047617,
-        "Annual CO\u2082 emissions from coal": 0.7692307692307693
+        "Annual CO\u2082 emissions from oil": 1483920.0,
+        "Annual CO\u2082 emissions from coal": 7877600.0
     },
     {
         "Year": 1935,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.0964149304084263,
+        "Annual CO\u2082 emissions from cement": 130834.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.05552113844625513,
-        "Annual CO\u2082 emissions from coal": 0.8046512116146268
+        "Annual CO\u2082 emissions from oil": 1410640.0,
+        "Annual CO\u2082 emissions from coal": 8240336.5
     },
     {
         "Year": 1936,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.10980634330860456,
+        "Annual CO\u2082 emissions from cement": 149006.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0568190351891546,
-        "Annual CO\u2082 emissions from coal": 0.8640429338103757
+        "Annual CO\u2082 emissions from oil": 1443616.0,
+        "Annual CO\u2082 emissions from coal": 8848560.0
     },
     {
         "Year": 1937,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11780419738111363,
+        "Annual CO\u2082 emissions from cement": 159859.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.06545129226843036,
-        "Annual CO\u2082 emissions from coal": 0.9703595784737249
+        "Annual CO\u2082 emissions from oil": 1662938.0,
+        "Annual CO\u2082 emissions from coal": 9937336.0
     },
     {
         "Year": 1938,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.12056103623537111,
+        "Annual CO\u2082 emissions from cement": 163600.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.07011094466699676,
-        "Annual CO\u2082 emissions from coal": 0.8332072048495832
+        "Annual CO\u2082 emissions from oil": 1781327.0,
+        "Annual CO\u2082 emissions from coal": 8532775.0
     },
     {
         "Year": 1939,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.14194440780286355,
+        "Annual CO\u2082 emissions from cement": 192617.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0819117055518777,
-        "Annual CO\u2082 emissions from coal": 1.0
+        "Annual CO\u2082 emissions from oil": 2081152.0,
+        "Annual CO\u2082 emissions from coal": 10240880.0
     },
     {
         "Year": 1940,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.12319701928313347,
+        "Annual CO\u2082 emissions from cement": 167177.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.02927478208984361,
-        "Annual CO\u2082 emissions from coal": 0.546690518783542
+        "Annual CO\u2082 emissions from oil": 743792.0,
+        "Annual CO\u2082 emissions from coal": 5598592.0
     },
     {
         "Year": 1941,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11516231892815638,
+        "Annual CO\u2082 emissions from cement": 156274.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.022496876876924154,
-        "Annual CO\u2082 emissions from coal": 0.39892665474060823
+        "Annual CO\u2082 emissions from oil": 571584.0,
+        "Annual CO\u2082 emissions from coal": 4085360.0
     },
     {
         "Year": 1942,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.13669602332811837,
+        "Annual CO\u2082 emissions from cement": 185495.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.0196282086301317,
-        "Annual CO\u2082 emissions from coal": 0.38492014358141097
+        "Annual CO\u2082 emissions from oil": 498699.0,
+        "Annual CO\u2082 emissions from coal": 3941921.0
     },
     {
         "Year": 1943,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11248433111838048,
+        "Annual CO\u2082 emissions from cement": 152640.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.018891608146647847,
-        "Annual CO\u2082 emissions from coal": 0.4697674418604651
+        "Annual CO\u2082 emissions from oil": 479984.0,
+        "Annual CO\u2082 emissions from coal": 4810832.0
     },
     {
         "Year": 1944,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.11775261258565839,
+        "Annual CO\u2082 emissions from cement": 159789.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.01945384901795786,
-        "Annual CO\u2082 emissions from coal": 0.4125704041058971
+        "Annual CO\u2082 emissions from oil": 494269.0,
+        "Annual CO\u2082 emissions from coal": 4225084.0
     },
     {
         "Year": 1945,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.05088545301398906,
+        "Annual CO\u2082 emissions from cement": 69051.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.020766347886391527,
-        "Annual CO\u2082 emissions from coal": 0.3334525939177102
+        "Annual CO\u2082 emissions from oil": 527616.0,
+        "Annual CO\u2082 emissions from coal": 3414848.0
     },
     {
         "Year": 1946,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.1580138085128177,
+        "Annual CO\u2082 emissions from cement": 214423.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.06965379186893825,
-        "Annual CO\u2082 emissions from coal": 0.49695885509839
+        "Annual CO\u2082 emissions from oil": 1769712.0,
+        "Annual CO\u2082 emissions from coal": 5089296.0
     },
     {
         "Year": 1947,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.17140448448734663,
+        "Annual CO\u2082 emissions from cement": 232594.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.11464754562278656,
-        "Annual CO\u2082 emissions from coal": 0.7305903398926654
+        "Annual CO\u2082 emissions from oil": 2912880.0,
+        "Annual CO\u2082 emissions from coal": 7481888.0
     },
     {
         "Year": 1948,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.19276574828535825,
+        "Annual CO\u2082 emissions from cement": 261581.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.15684898725797272,
-        "Annual CO\u2082 emissions from coal": 0.6577412292693596
+        "Annual CO\u2082 emissions from oil": 3985103.0,
+        "Annual CO\u2082 emissions from coal": 6735849.0
     },
     {
         "Year": 1949,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.21693396188178385,
+        "Annual CO\u2082 emissions from cement": 294377.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.15762235675944594,
-        "Annual CO\u2082 emissions from coal": 0.596422182468694
+        "Annual CO\u2082 emissions from oil": 4004752.2,
+        "Annual CO\u2082 emissions from coal": 6107888.0
     },
     {
         "Year": 1950,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.21157724933658267,
+        "Annual CO\u2082 emissions from cement": 287108.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.1473833856936954,
-        "Annual CO\u2082 emissions from coal": 0.429695885509839
+        "Annual CO\u2082 emissions from oil": 3744608.0,
+        "Annual CO\u2082 emissions from coal": 4400464.0
     },
     {
         "Year": 1951,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.2543307278098791,
+        "Annual CO\u2082 emissions from cement": 345124.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.1827885809016793,
-        "Annual CO\u2082 emissions from coal": 0.43811332619852983
+        "Annual CO\u2082 emissions from oil": 4644157.0,
+        "Annual CO\u2082 emissions from coal": 4486666.0
     },
     {
         "Year": 1952,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.25700945254530433,
+        "Annual CO\u2082 emissions from cement": 348759.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.21003563548371607,
-        "Annual CO\u2082 emissions from coal": 0.3905499332088649
+        "Annual CO\u2082 emissions from oil": 5336430.0,
+        "Annual CO\u2082 emissions from coal": 3999575.0
     },
     {
         "Year": 1953,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.2759572848416605,
+        "Annual CO\u2082 emissions from cement": 374471.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.2260628654959252,
-        "Annual CO\u2082 emissions from coal": 0.35791572599229754
+        "Annual CO\u2082 emissions from oil": 5743638.0,
+        "Annual CO\u2082 emissions from coal": 3665372.0
     },
     {
         "Year": 1954,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.2812108277959512,
+        "Annual CO\u2082 emissions from cement": 381600.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.23405404596953783,
-        "Annual CO\u2082 emissions from coal": 0.3470483005366726
+        "Annual CO\u2082 emissions from oil": 5946672.0,
+        "Annual CO\u2082 emissions from coal": 3554080.0
     },
     {
         "Year": 1955,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.29192351596070415,
+        "Annual CO\u2082 emissions from cement": 396137.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.29116150265711455,
-        "Annual CO\u2082 emissions from coal": 0.35348837209302325
+        "Annual CO\u2082 emissions from oil": 7397616.0,
+        "Annual CO\u2082 emissions from coal": 3620032.0
     },
     {
         "Year": 1956,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.32674030519038844,
+        "Annual CO\u2082 emissions from cement": 443383.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.30904363555928505,
-        "Annual CO\u2082 emissions from coal": 0.3570661896243292
+        "Annual CO\u2082 emissions from oil": 7851952.0,
+        "Annual CO\u2082 emissions from coal": 3656672.0
     },
     {
         "Year": 1957,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.3695910578494004,
+        "Annual CO\u2082 emissions from cement": 501531.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.30024677985741083,
-        "Annual CO\u2082 emissions from coal": 0.31520572450805007
+        "Annual CO\u2082 emissions from oil": 7628448.0,
+        "Annual CO\u2082 emissions from coal": 3227984.0
     },
     {
         "Year": 1958,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.3749477925023711,
+        "Annual CO\u2082 emissions from cement": 508800.03,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.3100531108037624,
-        "Annual CO\u2082 emissions from coal": 0.273345259391771
+        "Annual CO\u2082 emissions from oil": 7877600.0,
+        "Annual CO\u2082 emissions from coal": 2799296.0
     },
     {
         "Year": 1959,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.4124425474340617,
+        "Annual CO\u2082 emissions from cement": 559680.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.3308194586901539,
-        "Annual CO\u2082 emissions from coal": 0.2776386404293381
+        "Annual CO\u2082 emissions from oil": 8405216.0,
+        "Annual CO\u2082 emissions from coal": 2843264.0
     },
     {
         "Year": 1960,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.42047724778903883,
+        "Annual CO\u2082 emissions from cement": 570583.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.3742268942026806,
-        "Annual CO\u2082 emissions from coal": 0.2937388193202147
+        "Annual CO\u2082 emissions from oil": 9508080.0,
+        "Annual CO\u2082 emissions from coal": 3008144.0
     },
     {
         "Year": 1961,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.4633280004480508,
+        "Annual CO\u2082 emissions from cement": 628731.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.38908060137141903,
-        "Annual CO\u2082 emissions from coal": 0.27549194991055453
+        "Annual CO\u2082 emissions from oil": 9885472.0,
+        "Annual CO\u2082 emissions from coal": 2821280.0
     },
     {
         "Year": 1962,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.5142141903876892,
+        "Annual CO\u2082 emissions from cement": 697783.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.4037900977909464,
-        "Annual CO\u2082 emissions from coal": 0.30304114490161
+        "Annual CO\u2082 emissions from oil": 10259200.0,
+        "Annual CO\u2082 emissions from coal": 3103408.0
     },
     {
         "Year": 1963,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.5249268785524422,
+        "Annual CO\u2082 emissions from cement": 712320.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.455129124510081,
-        "Annual CO\u2082 emissions from coal": 0.2626118067978533
+        "Annual CO\u2082 emissions from oil": 11563584.0,
+        "Annual CO\u2082 emissions from coal": 2689376.0
     },
     {
         "Year": 1964,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.5624216555919024,
+        "Annual CO\u2082 emissions from cement": 763200.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.49147023331126616,
-        "Annual CO\u2082 emissions from coal": 0.2851520572450805
+        "Annual CO\u2082 emissions from oil": 12486912.0,
+        "Annual CO\u2082 emissions from coal": 2920208.0
     },
     {
         "Year": 1965,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.5838470319214083,
+        "Annual CO\u2082 emissions from cement": 792274.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.48267337760939194,
-        "Annual CO\u2082 emissions from coal": 0.32558139534883723
+        "Annual CO\u2082 emissions from oil": 12263408.0,
+        "Annual CO\u2082 emissions from coal": 3334240.0
     },
     {
         "Year": 1966,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.6641925616198805,
+        "Annual CO\u2082 emissions from cement": 901302.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.6045314606927311,
-        "Annual CO\u2082 emissions from coal": 0.32021466905187834
+        "Annual CO\u2082 emissions from oil": 15359488.0,
+        "Annual CO\u2082 emissions from coal": 3279280.0
     },
     {
         "Year": 1967,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.784711593093238,
+        "Annual CO\u2082 emissions from cement": 1064845.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.5922735470097917,
-        "Annual CO\u2082 emissions from coal": 0.3116279069767442
+        "Annual CO\u2082 emissions from oil": 15048048.0,
+        "Annual CO\u2082 emissions from coal": 3191344.0
     },
     {
         "Year": 1968,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.8355977830328765,
+        "Annual CO\u2082 emissions from cement": 1133897.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.6614947066310968,
-        "Annual CO\u2082 emissions from coal": 0.30983899821109123
+        "Annual CO\u2082 emissions from oil": 16806768.0,
+        "Annual CO\u2082 emissions from coal": 3173024.0
     },
     {
         "Year": 1969,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.9079086123763715,
+        "Annual CO\u2082 emissions from cement": 1232022.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.6832705297619657,
-        "Annual CO\u2082 emissions from coal": 0.3516994633273703
+        "Annual CO\u2082 emissions from oil": 17360032.0,
+        "Annual CO\u2082 emissions from coal": 3601712.0
     },
     {
         "Year": 1970,
-        "Annual CO\u2082 emissions from other industry": NaN,
+        "Annual CO\u2082 emissions from other industry": 0.0,
         "Annual CO\u2082 emissions from flaring": 0.0,
-        "Annual CO\u2082 emissions from cement": 0.9508846423957747,
+        "Annual CO\u2082 emissions from cement": 1290340.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.9092235841251674,
-        "Annual CO\u2082 emissions from coal": 0.35031423080828994
+        "Annual CO\u2082 emissions from oil": 23100880.0,
+        "Annual CO\u2082 emissions from coal": 3587526.0
     },
     {
         "Year": 1971,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.0726671388101983,
-        "Annual CO\u2082 emissions from cement": 1.0,
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 205212.0,
+        "Annual CO\u2082 emissions from cement": 1356989.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.8714387934787143,
-        "Annual CO\u2082 emissions from coal": 0.3381493582582747
+        "Annual CO\u2082 emissions from oil": 22140872.0,
+        "Annual CO\u2082 emissions from coal": 3462947.0
     },
     {
         "Year": 1972,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.37496317280453256,
-        "Annual CO\u2082 emissions from cement": 0.9953971623940946,
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1058896.0,
+        "Annual CO\u2082 emissions from cement": 1350743.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.940686717103694,
-        "Annual CO\u2082 emissions from coal": 0.3012522361359571
+        "Annual CO\u2082 emissions from oil": 23900272.0,
+        "Annual CO\u2082 emissions from coal": 3085088.0
     },
     {
         "Year": 1973,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.36977337110481584,
-        "Annual CO\u2082 emissions from cement": 0.9962903162811194,
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1044240.0,
+        "Annual CO\u2082 emissions from cement": 1351955.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.9996689135310144,
-        "Annual CO\u2082 emissions from coal": 0.2633273703041145
+        "Annual CO\u2082 emissions from oil": 25398848.0,
+        "Annual CO\u2082 emissions from coal": 2696704.0
     },
     {
         "Year": 1974,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.3866402266288952,
-        "Annual CO\u2082 emissions from cement": 0.9649297083469357,
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1091872.0,
+        "Annual CO\u2082 emissions from cement": 1309399.0,
         "Annual CO\u2082 emissions from gas": 0.0,
-        "Annual CO\u2082 emissions from oil": 0.8738935249216169,
-        "Annual CO\u2082 emissions from coal": 0.30173246830350514
+        "Annual CO\u2082 emissions from oil": 22203240.0,
+        "Annual CO\u2082 emissions from coal": 3090006.0
     },
     {
         "Year": 1975,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.30879320113314446,
-        "Annual CO\u2082 emissions from cement": 0.9926963298891885,
-        "Annual CO\u2082 emissions from gas": 0.08963414162259771,
-        "Annual CO\u2082 emissions from oil": 0.9446863612998804,
-        "Annual CO\u2082 emissions from coal": 0.2930232558139535
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 872032.0,
+        "Annual CO\u2082 emissions from cement": 1347078.0,
+        "Annual CO\u2082 emissions from gas": 1389867.0,
+        "Annual CO\u2082 emissions from oil": 24001892.0,
+        "Annual CO\u2082 emissions from coal": 3000816.0
     },
     {
         "Year": 1976,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.312685552407932,
-        "Annual CO\u2082 emissions from cement": 0.9828141569312647,
-        "Annual CO\u2082 emissions from gas": 0.14986108603121373,
-        "Annual CO\u2082 emissions from oil": 1.0,
-        "Annual CO\u2082 emissions from coal": 0.33202146690518786
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 883024.0,
+        "Annual CO\u2082 emissions from cement": 1333668.0,
+        "Annual CO\u2082 emissions from gas": 2323746.0,
+        "Annual CO\u2082 emissions from oil": 25407260.0,
+        "Annual CO\u2082 emissions from coal": 3400192.0
     },
     {
         "Year": 1977,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.40614978753541076,
-        "Annual CO\u2082 emissions from cement": 0.84904078072851,
-        "Annual CO\u2082 emissions from gas": 0.23571656133109764,
-        "Annual CO\u2082 emissions from oil": 0.9729370266608836,
-        "Annual CO\u2082 emissions from coal": 0.2594224324472116
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1146967.0,
+        "Annual CO\u2082 emissions from cement": 1152139.0,
+        "Annual CO\u2082 emissions from gas": 3655021.0,
+        "Annual CO\u2082 emissions from oil": 24719664.0,
+        "Annual CO\u2082 emissions from coal": 2656714.0
     },
     {
         "Year": 1978,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.1323399433427762,
-        "Annual CO\u2082 emissions from cement": 0.82002654406189,
-        "Annual CO\u2082 emissions from gas": 0.2968498645685541,
-        "Annual CO\u2082 emissions from oil": 0.9300373987592523,
-        "Annual CO\u2082 emissions from coal": 0.28622540250447226
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 373728.0,
+        "Annual CO\u2082 emissions from cement": 1112767.0,
+        "Annual CO\u2082 emissions from gas": 4602954.0,
+        "Annual CO\u2082 emissions from oil": 23629702.0,
+        "Annual CO\u2082 emissions from coal": 2931200.0
     },
     {
         "Year": 1979,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.2049971671388102,
-        "Annual CO\u2082 emissions from cement": 0.80725930718672,
-        "Annual CO\u2082 emissions from gas": 0.3072329420869341,
-        "Annual CO\u2082 emissions from oil": 0.9663372595077155,
-        "Annual CO\u2082 emissions from coal": 0.3581395348837209
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 578912.0,
+        "Annual CO\u2082 emissions from cement": 1095442.0,
+        "Annual CO\u2082 emissions from gas": 4763954.0,
+        "Annual CO\u2082 emissions from oil": 24551982.0,
+        "Annual CO\u2082 emissions from coal": 3667664.0
     },
     {
         "Year": 1980,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.3632510623229462,
-        "Annual CO\u2082 emissions from cement": 0.8106034757835178,
-        "Annual CO\u2082 emissions from gas": 0.23981594221591643,
-        "Annual CO\u2082 emissions from oil": 0.8715164878070284,
-        "Annual CO\u2082 emissions from coal": 0.37348811820859146
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1025821.0,
+        "Annual CO\u2082 emissions from cement": 1099980.0,
+        "Annual CO\u2082 emissions from gas": 3718586.0,
+        "Annual CO\u2082 emissions from oil": 22142846.0,
+        "Annual CO\u2082 emissions from coal": 3824847.0
     },
     {
         "Year": 1981,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.3788225920679887,
-        "Annual CO\u2082 emissions from cement": 0.6761698141989361,
-        "Annual CO\u2082 emissions from gas": 0.2678899135818393,
-        "Annual CO\u2082 emissions from oil": 0.8609175487636211,
-        "Annual CO\u2082 emissions from coal": 0.37399266469287795
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1069795.0,
+        "Annual CO\u2082 emissions from cement": 917555.0,
+        "Annual CO\u2082 emissions from gas": 4153901.0,
+        "Annual CO\u2082 emissions from oil": 21873556.0,
+        "Annual CO\u2082 emissions from coal": 3830014.0
     },
     {
         "Year": 1982,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.3943937677053824,
-        "Annual CO\u2082 emissions from cement": 0.6577628853292105,
-        "Annual CO\u2082 emissions from gas": 0.26183406423320005,
-        "Annual CO\u2082 emissions from oil": 0.8286790468551115,
-        "Annual CO\u2082 emissions from coal": 0.37449730882502286
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1113768.0,
+        "Annual CO\u2082 emissions from cement": 892577.0,
+        "Annual CO\u2082 emissions from gas": 4059999.0,
+        "Annual CO\u2082 emissions from oil": 21054464.0,
+        "Annual CO\u2082 emissions from coal": 3835182.0
     },
     {
         "Year": 1983,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.4099652974504249,
-        "Annual CO\u2082 emissions from cement": 0.6149946683429269,
-        "Annual CO\u2082 emissions from gas": 0.2950537856313685,
-        "Annual CO\u2082 emissions from oil": 0.8497542041133125,
-        "Annual CO\u2082 emissions from coal": 0.37500185530930935
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1157742.0,
+        "Annual CO\u2082 emissions from cement": 834541.0,
+        "Annual CO\u2082 emissions from gas": 4575104.0,
+        "Annual CO\u2082 emissions from oil": 21589926.0,
+        "Annual CO\u2082 emissions from coal": 3840349.0
     },
     {
         "Year": 1984,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.4255364730878187,
-        "Annual CO\u2082 emissions from cement": 0.569447504732905,
-        "Annual CO\u2082 emissions from gas": 0.34646511027989163,
-        "Annual CO\u2082 emissions from oil": 0.8925276476093841,
-        "Annual CO\u2082 emissions from coal": 0.37550640179359585
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1201715.0,
+        "Annual CO\u2082 emissions from cement": 772734.0,
+        "Annual CO\u2082 emissions from gas": 5372288.0,
+        "Annual CO\u2082 emissions from oil": 22676682.0,
+        "Annual CO\u2082 emissions from coal": 3845516.0
     },
     {
         "Year": 1985,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.44110764872521246,
-        "Annual CO\u2082 emissions from cement": 0.5917188717078767,
-        "Annual CO\u2082 emissions from gas": 0.3216510383077518,
-        "Annual CO\u2082 emissions from oil": 0.8446340140573994,
-        "Annual CO\u2082 emissions from coal": 0.3760109482778824
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1245688.0,
+        "Annual CO\u2082 emissions from cement": 802956.0,
+        "Annual CO\u2082 emissions from gas": 4987521.0,
+        "Annual CO\u2082 emissions from oil": 21459836.0,
+        "Annual CO\u2082 emissions from coal": 3850683.0
     },
     {
         "Year": 1986,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.45667917847025497,
-        "Annual CO\u2082 emissions from cement": 0.6465785647488668,
-        "Annual CO\u2082 emissions from gas": 0.3864175802915001,
-        "Annual CO\u2082 emissions from oil": 0.8990305920433765,
-        "Annual CO\u2082 emissions from coal": 0.3765154947621689
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1289662.0,
+        "Annual CO\u2082 emissions from cement": 877400.0,
+        "Annual CO\u2082 emissions from gas": 5991791.0,
+        "Annual CO\u2082 emissions from oil": 22841904.0,
+        "Annual CO\u2082 emissions from coal": 3855850.0
     },
     {
         "Year": 1987,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.4722503541076487,
-        "Annual CO\u2082 emissions from cement": 0.6064190645613192,
-        "Annual CO\u2082 emissions from gas": 0.37586256932800205,
-        "Annual CO\u2082 emissions from oil": 0.8436391802972851,
-        "Annual CO\u2082 emissions from coal": 0.3770200412464554
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1333635.0,
+        "Annual CO\u2082 emissions from cement": 822904.0,
+        "Annual CO\u2082 emissions from gas": 5828125.0,
+        "Annual CO\u2082 emissions from oil": 21434560.0,
+        "Annual CO\u2082 emissions from coal": 3861017.0
     },
     {
         "Year": 1988,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.5183788951841359,
-        "Annual CO\u2082 emissions from cement": 0.5279313244248848,
-        "Annual CO\u2082 emissions from gas": 0.4905896427189475,
-        "Annual CO\u2082 emissions from oil": 0.8641573314084242,
-        "Annual CO\u2082 emissions from coal": 0.38400391372616416
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1463902.0,
+        "Annual CO\u2082 emissions from cement": 716397.0,
+        "Annual CO\u2082 emissions from gas": 7607083.0,
+        "Annual CO\u2082 emissions from oil": 21955870.0,
+        "Annual CO\u2082 emissions from coal": 3932538.0
     },
     {
         "Year": 1989,
-        "Annual CO\u2082 emissions from other industry": NaN,
-        "Annual CO\u2082 emissions from flaring": 0.5645074362606233,
-        "Annual CO\u2082 emissions from cement": 0.5093762734996378,
-        "Annual CO\u2082 emissions from gas": 0.5050661679349929,
-        "Annual CO\u2082 emissions from oil": 0.7916206627554486,
-        "Annual CO\u2082 emissions from coal": 0.39098776667630125
+        "Annual CO\u2082 emissions from other industry": 0.0,
+        "Annual CO\u2082 emissions from flaring": 1594169.0,
+        "Annual CO\u2082 emissions from cement": 691218.0,
+        "Annual CO\u2082 emissions from gas": 7831556.0,
+        "Annual CO\u2082 emissions from oil": 20112912.0,
+        "Annual CO\u2082 emissions from coal": 4004058.8
     }
 ]

@@ -48,15 +48,8 @@ def process_data(
         if value_mapping is not None:
             norway_data[var_name] = norway_data[var_name].replace(value_mapping)
 
-    # Normalize specified columns using Value/Max Value
-    for col in y_columns:
-        max_val = norway_data[col].max()
-        norway_data[col] = norway_data[col] / max_val
-
-        # testing
-        # print(f"Normalizing column: {col}")
-        # print(f"Max value before normalization: {max_val}")
-        # print("Sample of data after normalization:", norway_data.head())
+    # Replace NaN values with 0
+    norway_data.fillna(0, inplace=True)
 
     # create an empty dict for processed data
     processed_data = {}
