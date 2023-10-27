@@ -155,5 +155,4 @@ function createLineChart(data) {
     .attr('transform', `translate(${GraphTemp.margin.left},${y(-1) + 20})`); // adjust this value to place slider
     
     gSlider.call(slider);
-
 }
