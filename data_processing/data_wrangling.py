@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 
-def process_and_normalize_data(
+def process_data(
     file_path,
     y_columns,
     output_folder="data/processed",
@@ -48,15 +48,8 @@ def process_and_normalize_data(
         if value_mapping is not None:
             norway_data[var_name] = norway_data[var_name].replace(value_mapping)
 
-    # Normalize specified columns using Value/Max Value
-    for col in y_columns:
-        max_val = norway_data[col].max()
-        norway_data[col] = norway_data[col] / max_val
-
-        # testing
-        # print(f"Normalizing column: {col}")
-        # print(f"Max value before normalization: {max_val}")
-        # print("Sample of data after normalization:", norway_data.head())
+    # Replace NaN values with 0
+    norway_data.fillna(0, inplace=True)
 
     # create an empty dict for processed data
     processed_data = {}
@@ -114,9 +107,9 @@ def process_energy_data(
 
 
 # Preprocessing data
-pd_1 = process_and_normalize_data("data/raw/forest-area-km.csv", ["Forest area"])
+pd_1 = process_data("data/raw/forest-area-km.csv", ["Forest area"])
 
-pd_2 = process_and_normalize_data(
+pd_2 = process_data(
     "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
 )
 
@@ -139,9 +132,22 @@ value_mapping = {
     "Hydro generation - TWh": "Hydro",
 }
 
-pd_2 = process_energy_data(
+pd_3 = process_energy_data(
     "data/raw/modern-renewable-energy-consumption.csv",
     value_names,
     value_vars=value_vars,
     value_mapping=value_mapping,
 )
+
+# -------------pd_4 set up-------------#
+
+y_columns_4 = [
+    "Annual CO₂ emissions from other industry",
+    "Annual CO₂ emissions from flaring",
+    "Annual CO₂ emissions from cement",
+    "Annual CO₂ emissions from gas",
+    "Annual CO₂ emissions from oil",
+    "Annual CO₂ emissions from coal",
+]
+
+pd_4 = process_data("data/raw/co2-by-source.csv", y_columns_4)

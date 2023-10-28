@@ -17,7 +17,8 @@ temp_data = load_data(
 )
 
 # co2 data
-co2_data = load_data("pd_annual-co2-emissions-per-country.json")
+# co2_data = load_data("pd_annual-co2-emissions-per-country.json")
+co2_data = load_data("pd_co2-by-source.json")
 
 # forest data
 forest_data = load_data("pd_forest-area-km.json")
