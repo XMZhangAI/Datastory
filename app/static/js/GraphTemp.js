@@ -53,6 +53,9 @@
             const width = fullWidth - this.margin.left - this.margin.right;
             const height = fullHeight - this.margin.top - this.margin.bottom;
 
+            console.log("Width temp: ", width);
+            console.log("Height temp: ", height);
+
             this.x = d3.scaleLinear()
                 .domain([d3.min(data, d => d.Year), d3.max(data, d => d.Year)])
                 .range([this.margin.left, fullWidth - this.margin.right]); 

@@ -66,16 +66,22 @@
             console.log("Min Value: ", minValue);
             console.log("Max Value: ", maxValue);
 
-
             // Updating the global vars x and margin
             this.margin = {top: 20, right: 30, bottom: 30, left: 60};
 
-            const width = 500 - this.margin.left - this.margin.right,
-                height = 500 - this.margin.top - this.margin.bottom;
-            
+            let svg = d3.select(svgId);
+            const fullWidth = svg.node().getBoundingClientRect().width;
+            const fullHeight = svg.node().getBoundingClientRect().height;
+
+            const width = fullWidth - this.margin.left - this.margin.right;
+            const height = fullHeight - this.margin.top - this.margin.bottom;
+
+            console.log("Width co2: ", width);
+            console.log("Height c02: ", height);
+        
             this.x = d3.scaleLinear()
                 .domain([d3.min(data, d => d.Year), d3.max(data, d => d.Year)])
-                .range([this.margin.left, width - this.margin.right]);
+                .range([this.margin.left, fullWidth - this.margin.right]);
             
             const y = d3.scaleLinear()
                 .domain([minValue, maxValue]) 
@@ -86,9 +92,7 @@
             .attr("transform", `translate(${this.margin.left},0)`)
             .call(d3.axisLeft(y).tickFormat(d3.format(".2s")))
             .call(g => g.select(".domain").remove());
-            
-        
-            let svg = d3.select(svgId);
+
 
             Object.keys(data[0]).forEach(key => {
                 if (key !== 'Year') {
@@ -146,7 +150,7 @@
             svg.append("text")
                 .attr("class", "title")
                 .attr("text-anchor", "middle")
-                .attr("x", width / 2)
+                .attr("x", fullWidth / 2)
                 .attr("y", this.margin.top - 5)  // Adjust this value to place text
                 .text("Yearly CO₂ emissions in Norway");  // Updated text
 
@@ -155,7 +159,7 @@
                 .min(d3.min(data, d => d.Year))
                 .max(d3.max(data, d => d.Year))
                 .step(1)
-                .width(width - this.margin.left - this.margin.right)
+                .width(width)
                 .tickFormat(d3.format('d'))
                 .ticks(10)
                 .default(d3.min(data, d => d.Year))
