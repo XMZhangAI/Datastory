@@ -73,8 +73,8 @@ const ChartUtils = {
         const width = fullWidth - this.margin.left - this.margin.right;
         const height = fullHeight - this.margin.top - this.margin.bottom;
 
-        console.log("Width co2: ", width);
-        console.log("Height c02: ", height);
+        console.log("Width: ", width);
+        console.log("Height: ", height);
     
         let x = d3.scaleLinear()
             .domain([d3.min(data, d => d.Year), d3.max(data, d => d.Year)])

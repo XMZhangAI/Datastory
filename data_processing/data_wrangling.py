@@ -109,9 +109,9 @@ def process_energy_data(
 # Preprocessing data
 pd_1 = process_data("data/raw/forest-area-km.csv", ["Forest area"])
 
-pd_2 = process_data(
-    "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
-)
+# pd_2 = process_data(
+#     "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
+# )
 
 # -------------pd_3 set up-------------#
 
