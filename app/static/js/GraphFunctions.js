@@ -1,15 +1,10 @@
 const ChartUtils = {
     margin: {top: 20, right: 30, bottom: 30, left: 60},
 
-    colorFunc: function(key) {
-        const colorScheme = {
-            'key1': 'red',
-            'key2': 'blue',
-            'key3': 'green',
-            'key4': 'purple',
-            'key5': 'orange',
-            'key6': 'pink',
-        };
+    colorFunc: function(key, colorScheme) {
+        if (colorScheme === null) {
+            return 'black';
+        }
         return colorScheme[key] || 'black';  // Default color is black
     },
     
@@ -34,7 +29,7 @@ const ChartUtils = {
             });
 
             // Calculate the new x position for the vertical line based on the slider value
-            let newX = this.x(val);
+            let newX = x(val);
 
             // Update the x1 and x2 attributes of the vertical line
             svg.select(`#${verticalLineId}`)
@@ -51,11 +46,19 @@ const ChartUtils = {
         }
     },
 
-    createLineChart: function(data, svgId, colorScheme, yAxisLabel, titleText, colorFunc, verticalLineId, shadeRectId   ) {
+    createLineChart: function(data, svgId, colorScheme, yAxisLabel, titleText, verticalLineId, shadeRectId, ytickFormat   ) {
+        console.log(data);
         // Maximum value for normalization
-        const allValues = data.flatMap(d => Object.values(d).filter(val => !isNaN(val)));
+        const allValues = data.flatMap(d => 
+            Object.entries(d)
+            .filter(([key, value]) => key !== 'Year' && !isNaN(value))
+            .map(([key, value]) => value)
+        );
         const minValue = Math.min(...allValues);
         const maxValue = Math.max(...allValues);
+        // const allValues = data.flatMap(d => Object.values(d).filter(val => !isNaN(val)));
+        // const minValue = Math.min(...allValues);
+        // const maxValue = Math.max(...allValues);
 
         console.log("Min Value: ", minValue);
         console.log("Max Value: ", maxValue);
@@ -73,7 +76,7 @@ const ChartUtils = {
         console.log("Width co2: ", width);
         console.log("Height c02: ", height);
     
-        this.x = d3.scaleLinear()
+        let x = d3.scaleLinear()
             .domain([d3.min(data, d => d.Year), d3.max(data, d => d.Year)])
             .range([this.margin.left, fullWidth - this.margin.right]);
         
@@ -84,7 +87,7 @@ const ChartUtils = {
 
         const yAxis = g => g
         .attr("transform", `translate(${this.margin.left},0)`)
-        .call(d3.axisLeft(y).tickFormat(d3.format(".2s")))
+        .call(d3.axisLeft(y).tickFormat(ytickFormat))
         .call(g => g.select(".domain").remove());
 
 
@@ -92,13 +95,13 @@ const ChartUtils = {
             if (key !== 'Year') {
                 const line = d3.line()
                     .defined(d => !isNaN(d[key]))
-                    .x(d => this.x(d.Year))
+                    .x(d => x(d.Year))
                     .y(d => y(d[key]));
                 
                 svg.append("path")
                     .datum(data)
                     .attr("fill", "none")
-                    .attr("stroke", colorFunc(key))  // Function to fetch color based on key
+                    .attr("stroke", this.colorFunc(key, colorScheme))  // Function to fetch color based on key
                     .attr("stroke-width", 1.5)
                     .attr("stroke-linejoin", "round")
                     .attr("stroke-linecap", "round")
@@ -158,7 +161,7 @@ const ChartUtils = {
             .ticks(10)
             .default(d3.min(data, d => d.Year))
             .on('onchange', val => { 
-                this.updateCanvas(val, data, maxValue, minValue, svgId, this.x, verticalLineId, shadeRectId);  // Data is passed as an argument to updateCanvas
+                this.updateCanvas(val, data, maxValue, minValue, svgId, x, verticalLineId, shadeRectId);  // Data is passed as an argument to updateCanvas
             });
 
         let gSlider = d3.select(svgId)
@@ -166,5 +169,9 @@ const ChartUtils = {
             .attr('transform', `translate(${this.margin.left},${y(-1) + 20})`); // Adjust this value to place slider
 
         gSlider.call(slider);
+
+        console.log(y.domain(), y.range());
+
+        return x;
     }
 };
