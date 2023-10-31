@@ -7,6 +7,14 @@ const ChartUtils = {
         }
         return colorScheme[key] || 'black';  // Default color is black
     },
+
+
+    sendToP5: function(dataDict) {
+        // check if P5-sketch has a function named 'updateCircles'
+        if (typeof window.updateCircles === 'function') {
+            window.updateCircles(dataDict);
+        }
+    },
     
 
     updateCanvas: function(val, data, maxValue, minValue, svgId, x, verticalLineId, shadeRectId) {
@@ -17,16 +25,25 @@ const ChartUtils = {
         const matchingDataPoint = data.find(d => d.Year === val);
 
         if (matchingDataPoint) {
-            // Logging the values to the console
-            console.log("Year: ", matchingDataPoint.Year);
+            // Create a dictionary to hold the data
+            let dataDict = {
+                Year: matchingDataPoint.Year,
+            };
+
+            // Populate the dictionary with key-value pairs from matchingDataPoint
+            Object.keys(matchingDataPoint).forEach(key => {
+                if (key !== 'Year') {
+                    dataDict[key] = matchingDataPoint[key];
+                }
+            });
+
+            // Now dataDict holds all the necessary information
+            console.log(dataDict);
             console.log("Max Value: ", maxValue);
             console.log("Min Value: ", minValue);
 
-            Object.keys(matchingDataPoint).forEach(key => {
-                if (key !== 'Year') {
-                    console.log(`${key}: `, matchingDataPoint[key]);
-                }
-            });
+            // sending info to canvas
+            this.sendToP5(dataDict);
 
             // Calculate the new x position for the vertical line based on the slider value
             let newX = x(val);
