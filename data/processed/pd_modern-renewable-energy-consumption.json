@@ -1,0 +1,408 @@
+[
+    {
+        "Year": 1965,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 49.452
+    },
+    {
+        "Year": 1966,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 48.744
+    },
+    {
+        "Year": 1967,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 53.301
+    },
+    {
+        "Year": 1968,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 60.205
+    },
+    {
+        "Year": 1969,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 57.371
+    },
+    {
+        "Year": 1970,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 57.808
+    },
+    {
+        "Year": 1971,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 63.245
+    },
+    {
+        "Year": 1972,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 67.417
+    },
+    {
+        "Year": 1973,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 72.867
+    },
+    {
+        "Year": 1974,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 76.597
+    },
+    {
+        "Year": 1975,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 77.33
+    },
+    {
+        "Year": 1976,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 81.933
+    },
+    {
+        "Year": 1977,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 72.022
+    },
+    {
+        "Year": 1978,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 80.706
+    },
+    {
+        "Year": 1979,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 88.698
+    },
+    {
+        "Year": 1980,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 83.613
+    },
+    {
+        "Year": 1981,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 92.834
+    },
+    {
+        "Year": 1982,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 92.499
+    },
+    {
+        "Year": 1983,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 105.688
+    },
+    {
+        "Year": 1984,
+        "Other Renewables": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 105.903
+    },
+    {
+        "Year": 1985,
+        "Other Renewables": 0.005,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 102.383
+    },
+    {
+        "Year": 1986,
+        "Other Renewables": 0.026,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 96.201
+    },
+    {
+        "Year": 1987,
+        "Other Renewables": 0.021,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 103.273
+    },
+    {
+        "Year": 1988,
+        "Other Renewables": 0.027,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 108.857
+    },
+    {
+        "Year": 1989,
+        "Other Renewables": 0.029,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 118.4
+    },
+    {
+        "Year": 1990,
+        "Other Renewables": 0.213,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 121.145
+    },
+    {
+        "Year": 1991,
+        "Other Renewables": 0.209,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 110.134
+    },
+    {
+        "Year": 1992,
+        "Other Renewables": 0.227,
+        "Solar": 0.0,
+        "Wind": 0.0,
+        "Hydro": 116.671
+    },
+    {
+        "Year": 1993,
+        "Other Renewables": 0.243,
+        "Solar": 0.0,
+        "Wind": 0.007,
+        "Hydro": 119.233
+    },
+    {
+        "Year": 1994,
+        "Other Renewables": 0.27,
+        "Solar": 0.0,
+        "Wind": 0.009,
+        "Hydro": 111.643
+    },
+    {
+        "Year": 1995,
+        "Other Renewables": 0.289,
+        "Solar": 0.0,
+        "Wind": 0.01,
+        "Hydro": 121.53
+    },
+    {
+        "Year": 1996,
+        "Other Renewables": 0.303,
+        "Solar": 0.0,
+        "Wind": 0.009,
+        "Hydro": 103.862
+    },
+    {
+        "Year": 1997,
+        "Other Renewables": 0.241,
+        "Solar": 0.0,
+        "Wind": 0.011,
+        "Hydro": 109.775
+    },
+    {
+        "Year": 1998,
+        "Other Renewables": 0.27,
+        "Solar": 0.0,
+        "Wind": 0.011,
+        "Hydro": 115.703
+    },
+    {
+        "Year": 1999,
+        "Other Renewables": 0.273,
+        "Solar": 0.0,
+        "Wind": 0.025,
+        "Hydro": 121.452
+    },
+    {
+        "Year": 2000,
+        "Other Renewables": 0.256,
+        "Solar": 0.0053,
+        "Wind": 0.031,
+        "Hydro": 141.818
+    },
+    {
+        "Year": 2001,
+        "Other Renewables": 0.255,
+        "Solar": 0.0053,
+        "Wind": 0.027,
+        "Hydro": 120.463
+    },
+    {
+        "Year": 2002,
+        "Other Renewables": 0.25,
+        "Solar": 0.0053,
+        "Wind": 0.075,
+        "Hydro": 129.372
+    },
+    {
+        "Year": 2003,
+        "Other Renewables": 0.33,
+        "Solar": 0.0062,
+        "Wind": 0.218,
+        "Hydro": 105.48
+    },
+    {
+        "Year": 2004,
+        "Other Renewables": 0.359,
+        "Solar": 0.0062,
+        "Wind": 0.252,
+        "Hydro": 108.781
+    },
+    {
+        "Year": 2005,
+        "Other Renewables": 0.333,
+        "Solar": 0.0062,
+        "Wind": 0.499,
+        "Hydro": 135.688
+    },
+    {
+        "Year": 2006,
+        "Other Renewables": 0.388,
+        "Solar": 0.0071,
+        "Wind": 0.636,
+        "Hydro": 119.369
+    },
+    {
+        "Year": 2007,
+        "Other Renewables": 0.386,
+        "Solar": 0.0071,
+        "Wind": 0.892,
+        "Hydro": 133.656
+    },
+    {
+        "Year": 2008,
+        "Other Renewables": 0.397,
+        "Solar": 0.0074,
+        "Wind": 0.913,
+        "Hydro": 139.044
+    },
+    {
+        "Year": 2009,
+        "Other Renewables": 0.227,
+        "Solar": 0.0077,
+        "Wind": 0.977,
+        "Hydro": 125.283
+    },
+    {
+        "Year": 2010,
+        "Other Renewables": 0.349,
+        "Solar": 0.0081,
+        "Wind": 0.879,
+        "Hydro": 116.739
+    },
+    {
+        "Year": 2011,
+        "Other Renewables": 0.339,
+        "Solar": 0.0085,
+        "Wind": 1.283,
+        "Hydro": 120.279
+    },
+    {
+        "Year": 2012,
+        "Other Renewables": 0.326,
+        "Solar": 0.0089,
+        "Wind": 1.548,
+        "Hydro": 141.724
+    },
+    {
+        "Year": 2013,
+        "Other Renewables": 0.396,
+        "Solar": 0.0098,
+        "Wind": 1.881,
+        "Hydro": 128.138
+    },
+    {
+        "Year": 2014,
+        "Other Renewables": 0.2531,
+        "Solar": 0.0116,
+        "Wind": 2.217,
+        "Hydro": 135.466
+    },
+    {
+        "Year": 2015,
+        "Other Renewables": 0.253,
+        "Solar": 0.0134,
+        "Wind": 2.515,
+        "Hydro": 137.302
+    },
+    {
+        "Year": 2016,
+        "Other Renewables": 0.233,
+        "Solar": 0.0238,
+        "Wind": 2.116,
+        "Hydro": 142.807
+    },
+    {
+        "Year": 2017,
+        "Other Renewables": 0.259,
+        "Solar": 0.039961,
+        "Wind": 2.854,
+        "Hydro": 142.366
+    },
+    {
+        "Year": 2018,
+        "Other Renewables": 0.204168,
+        "Solar": 0.060876,
+        "Wind": 3.877,
+        "Hydro": 138.97115
+    },
+    {
+        "Year": 2019,
+        "Other Renewables": 0.253005,
+        "Solar": 0.10502,
+        "Wind": 5.525,
+        "Hydro": 125.28956
+    },
+    {
+        "Year": 2020,
+        "Other Renewables": 0.23981,
+        "Solar": 0.13575,
+        "Wind": 9.911,
+        "Hydro": 140.9238
+    },
+    {
+        "Year": 2021,
+        "Other Renewables": 0.22411,
+        "Solar": 0.174527,
+        "Wind": 11.768,
+        "Hydro": 143.29362
+    },
+    {
+        "Year": 2022,
+        "Other Renewables": 0.2702739,
+        "Solar": 0.27312693,
+        "Wind": 14.821468,
+        "Hydro": 127.610214
+    }
+]
