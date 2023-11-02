@@ -3,13 +3,19 @@ import pandas as pd
 import os
 
 
+def get_new_column_name(old_col_name, column_name_mapping):
+    return (
+        column_name_mapping.get(old_col_name, old_col_name)
+        if column_name_mapping
+        else old_col_name
+    )
+
+
 def process_data(
     file_path,
     y_columns,
+    column_name_mapping=None,
     output_folder="data/processed",
-    value_vars=None,
-    var_name=None,
-    value_mapping=None,
 ):
     """
     Process, optionally melt, and normalize dataset, and save it as a JSON file.
@@ -35,19 +41,6 @@ def process_data(
     # Drop unwanted columns
     norway_data = norway_data.drop(columns=["Entity", "Code"])
 
-    # Melt the data if value_vars and var_name are provided
-    if value_vars is not None and var_name is not None:
-        norway_data = pd.melt(
-            norway_data,
-            id_vars=["Year"],
-            value_vars=value_vars,
-            var_name=var_name,
-            value_name="Value",
-        )
-        # Replace long type names with shorter ones if value_mapping is provided
-        if value_mapping is not None:
-            norway_data[var_name] = norway_data[var_name].replace(value_mapping)
-
     # Replace NaN values with 0
     norway_data.fillna(0, inplace=True)
 
@@ -62,10 +55,15 @@ def process_data(
             processed_data[year] = {"Year": int(year)}
         for col in norway_data.columns:
             if col != "Year":
-                processed_data[year][col] = row[col]
+                # gets the new column name or uses the old one if none is given
+                new_col_name = get_new_column_name(col, column_name_mapping)
+                processed_data[year][new_col_name] = row[col]
 
     # Convert data to a list
     processed_data_list = list(processed_data.values())
+
+    # Sort the data list by the 'Year' field
+    processed_data_list.sort(key=lambda x: x["Year"])
 
     # Create a new filename and save as JSON
     file_name = "pd_" + os.path.basename(file_path).replace(".csv", ".json")
@@ -76,67 +74,30 @@ def process_data(
     return output_path
 
 
-def process_energy_data(
-    file_path,
-    y_columns,
-    output_folder="data/processed",
-    value_vars=None,
-    value_mapping=None,
-):
-    data = pd.read_csv(file_path)
-    norway_data = data[data["Entity"] == "Norway"].copy()
-    norway_data = norway_data.drop(columns=["Entity", "Code"])
-
-    for value_var in value_vars:
-        single_energy_type_data = norway_data[["Year", value_var]].copy()
-
-        processed_data = {}
-        for index, row in single_energy_type_data.iterrows():
-            year = row["Year"]
-            value = row[value_var]
-            if year not in processed_data:
-                processed_data[year] = {"Year": int(year)}
-            processed_data[year][value_var] = value
-
-        processed_data_list = list(processed_data.values())
-        energy_type_name = value_mapping.get(value_var, value_var)
-        file_name = f"pd_{energy_type_name}.json"
-        output_path = os.path.join(output_folder, file_name)
-        with open(output_path, "w") as f:
-            json.dump(processed_data_list, f, indent=4)
-
-
 # Preprocessing data
 pd_1 = process_data("data/raw/forest-area-km.csv", ["Forest area"])
 
-# pd_2 = process_data(
-#     "data/raw/annual-co2-emissions-per-country.csv", ["Annual CO₂ emissions"]
-# )
-
 # -------------pd_3 set up-------------#
 
-value_vars = [
+
+y_columns_3 = {
     "Other renewables (including geothermal and biomass) electricity generation - TWh",
     "Solar generation - TWh",
     "Wind generation - TWh",
     "Hydro generation - TWh",
-]
+}
 
-var_name = "Energy Type"
-value_names = ["Value"]
-
-value_mapping = {
+column_name_mapping_3 = {
     "Other renewables (including geothermal and biomass) electricity generation - TWh": "Other Renewables",
     "Solar generation - TWh": "Solar",
     "Wind generation - TWh": "Wind",
     "Hydro generation - TWh": "Hydro",
 }
 
-pd_3 = process_energy_data(
+pd_3 = process_data(
     "data/raw/modern-renewable-energy-consumption.csv",
-    value_names,
-    value_vars=value_vars,
-    value_mapping=value_mapping,
+    y_columns_3,
+    column_name_mapping=column_name_mapping_3,
 )
 
 # -------------pd_4 set up-------------#
@@ -150,4 +111,13 @@ y_columns_4 = [
     "Annual CO₂ emissions from coal",
 ]
 
-pd_4 = process_data("data/raw/co2-by-source.csv", y_columns_4)
+column_name_mapping_4 = {
+    "Annual CO₂ emissions from other industry": "Other industry",
+    "Annual CO₂ emissions from flaring": "Flaring",
+    "Annual CO₂ emissions from cement": "Cement",
+    "Annual CO₂ emissions from gas": "Gas",
+    "Annual CO₂ emissions from oil": "Oil",
+    "Annual CO₂ emissions from coal": "Coal",
+}
+
+pd_4 = process_data("data/raw/co2-by-source.csv", y_columns_4, column_name_mapping_4)

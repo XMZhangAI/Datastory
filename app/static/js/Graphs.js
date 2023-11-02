@@ -2,16 +2,14 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('/api/data/co2')
         .then(response => response.json())
         .then(data => {
-            // Sort data by year
-            data.sort((a, b) => a.Year - b.Year);
 
             const colorSchemeCO2 = {
-                "Annual CO\u2082 emissions from other industry": "red",
-                "Annual CO\u2082 emissions from flaring": "blue",
-                "Annual CO\u2082 emissions from cement": "orange",
-                "Annual CO\u2082 emissions from gas": "gray",
-                "Annual CO\u2082 emissions from oil": "black",
-                "Annual CO\u2082 emissions from coal": "brown",
+                "Other industry": "red",
+                "Flaring": "blue",
+                "Cement": "orange",
+                "Gas": "gray",
+                "Oil": "black",
+                "Coal": "brown",
             };
 
             // Create CO2 graph
@@ -32,8 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('/api/data/temperature')
         .then(response => response.json())
         .then(data => {
-            // Sort data by year
-            data.sort((a, b) => a.Year - b.Year);
 
             // Create temperature graph
             ChartUtils.createLineChart(
@@ -45,6 +41,32 @@ document.addEventListener("DOMContentLoaded", function() {
                 'vertical-line-temp', 
                 'shade-rect-temp',
                 d3.format(".1f")
+                );
+        });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    fetch('/api/data/energy')
+        .then(response => response.json())
+        .then(data => {
+
+            const colorSchemeEnergy = {
+                "Other Renewables": "red",
+                "Solar": "yellow",
+                "Wind": "gray",
+                "Hydro": "blue",
+            };
+
+            // Create energy graph
+            ChartUtils.createLineChart(
+                data,
+                "#chart-energy",
+                colorSchemeEnergy,
+                "Terrawatt",
+                "Yearly renewable energy production in Norway",
+                'vertical-line-energy', 
+                'shade-rect-energy',
+                d3.format(".0f")
                 );
         });
 });

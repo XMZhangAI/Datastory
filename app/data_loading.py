@@ -9,7 +9,7 @@ def load_data(file_name):
 
 # ------------------- Cached data -------------------#
 # energy data
-wind_data = load_data("pd_Wind.json")
+energy_data = load_data("pd_modern-renewable-energy-consumption.json")
 
 # temperature data
 temp_data = load_data(
