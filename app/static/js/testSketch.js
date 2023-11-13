@@ -1,3 +1,9 @@
+
+function preload() {
+    as = loadImage(base_url + "js/assets/1.png");
+    bs = loadImage(base_url + "js/assets/2.gif");
+}
+
 function setup() {
     let canvas = createCanvas(500, 350);
     background(255);
