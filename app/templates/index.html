@@ -9,6 +9,21 @@
     <script src="{{ url_for('static', filename='js/GraphFunctions.js') }}"></script>
     <script src="{{ url_for('static', filename='js/Graphs.js') }}"></script>
     <script src="{{ url_for('static', filename='js/testSketch.js') }}"></script>
+    <script  src="{{ url_for('static', filename='js/visual/fish.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/seaweed.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/wave.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/ice.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/whale.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/landmark.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/snowmountain.js')}}"></script> 
+    <script  src="{{ url_for('static', filename='js/visual/snowflake.js')}}"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <script>
+        var base_url = "{{ url_for('static', filename='') }}";
+    </script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Data Story</title>
     <style>
         body {
@@ -27,10 +42,12 @@
     </style>
 </head>
 <body>
+
     <div class="frame" style="background-color: #f0f0f0;">
         <!-- Left frame content goes here -->
         <h1>Canvas</h1>
         <div id="leftCanvasContainer"></div>
+       
     </div>
     <div class="frame" style="background-color: #e0e0e0;">
         <!-- Right frame content goes here -->
@@ -40,7 +57,6 @@
         <svg id="chart-temp" width="100%" height="500"></svg>
         <svg id="chart-energy" width="100%" height="500"></svg>     
     </div>
-
-
+    
 </body>
 </html>

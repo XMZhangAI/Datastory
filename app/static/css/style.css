@@ -1,1 +1,7 @@
-/* Add style for html page here */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
