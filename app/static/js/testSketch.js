@@ -5,6 +5,11 @@ let b = 180;
 let scene1;
 let weeds, rootnoise;
 let padding = 25;
+let yearData=0;
+let oilData=0;
+let gasData=0;
+let tempData=0;
+let hydroData=0;
 
 function preload() {
     as = loadImage(base_url + "js/assets/1.png");
@@ -28,8 +33,14 @@ function setup() {
 function draw() {
     // background(as);
     strokeWeight(0);
-    // scene1.display();
-    scene2.display();
+    if(yearData<1960){
+        scene2.display();
+    }
+    else {
+        scene1.display();
+    }
+     //
+    
 }
 
 class Scene1 {
@@ -91,9 +102,44 @@ class Scene2 {
     }
     display() {
         this.landmark.display();
+        this.updataTree();
+        this.updateFish();
+    }
+    updataTree(dataDict){
+
+    }
+    updateFish(dataDict){
+
+    }
+}
+class Scene3 {
+    constructor() {
+        this.landmark = new Landmark();
+    }
+    display() {
+        this.landmark.display();
     }
 }
 
+function updateCo2(dataDict) {
+    console.log('Updating CO2 data in P5.js:', dataDict);
+    yearData = dataDict["Year"];
+    oilData = dataDict["Oil"];
+    gasData = dataDict["Gas"];
+    console.log('Year',yearData);
+    console.log('Oil',oilData);
+
+  }
+function updateTemp(dataDict) {
+    console.log('Updating temperature data in P5.js:', dataDict);
+    tempData = dataDict["Temperature"];
+    console.log('Temperature:', tempData);
+  }
+  
+function updateEnergy(dataDict) {
+    console.log('Updating energy data in P5.js:', dataDict);
+    hydroData = dataDict["Hydro"];
+  }
 function updateCircles(dataDict) {
     console.log('updateCircles called with:', dataDict);
 
