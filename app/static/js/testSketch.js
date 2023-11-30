@@ -10,7 +10,7 @@ let oilData=0;
 let gasData=0;
 let tempData=0;
 let hydroData=0;
-
+let factor = 0;
 function preload() {
     as = loadImage(base_url + "js/assets/1.png");
     bs = loadImage(base_url + "js/assets/2.gif");
@@ -126,26 +126,32 @@ function updateCo2(dataDict) {
     yearData = dataDict["Year"];
     oilData = dataDict["Oil"];
     gasData = dataDict["Gas"];
-    console.log('Year',yearData);
+    //console.log('Year',yearData);
     console.log('Oil',oilData);
+    console.log('Gas',gasData);
 
   }
 function updateTemp(dataDict) {
     console.log('Updating temperature data in P5.js:', dataDict);
     tempData = dataDict["Temperature"];
-    console.log('Temperature:', tempData);
+   // console.log('Temperature:', tempData);
   }
   
 function updateEnergy(dataDict) {
     console.log('Updating energy data in P5.js:', dataDict);
     hydroData = dataDict["Hydro"];
   }
+function calculateFactor(){
+    factor = (oilData+gasData)*0.0000001+hydroData*0.01;
+    console.log('the value of factor ',factor);
+}
+
 function updateCircles(dataDict) {
     console.log('updateCircles called with:', dataDict);
 
     // clear();  // remove earlier drawings
     let temperature = dataDict["Temperature"];
-    console.log('Temperature:', temperature);
+    //console.log('Temperature:', temperature);
 
     // scaling number of circles made
     let numCircles = Math.abs(temperature);
