@@ -1,6 +1,18 @@
 const ChartUtils = {
     margin: {top: 20, right: 30, bottom: 30, left: 60},
 
+    // individual sliders storage
+    sliders: [],
+
+    
+    updateAllSliders: function (year) {
+        this.sliders.forEach(slider => {
+            if (slider.silentValue) {
+                slider.silentValue(year);
+            }
+        });
+    },
+
     colorFunc: function(key, colorScheme) {
         if (colorScheme === null) {
             return 'black';
@@ -63,7 +75,7 @@ const ChartUtils = {
         }
     },
 
-    createLineChart: function(data, svgId, colorScheme, yAxisLabel, titleText, verticalLineId, shadeRectId, ytickFormat   ) {
+    createLineChart: function(data, svgId, colorScheme, yAxisLabel, titleText, verticalLineId, shadeRectId, ytickFormat) {
         console.log(data);
         // Maximum value for normalization
         const allValues = data.flatMap(d => 
@@ -183,9 +195,19 @@ const ChartUtils = {
 
         let gSlider = d3.select(svgId)
             .append('g')
-            .attr('transform', `translate(${this.margin.left},${y(-1) + 20})`); // Adjust this value to place slider
+            .attr('transform', `translate(${this.margin.left},${height - this.margin.bottom + 10})`); // Justert 10 piksler nedover
+
 
         gSlider.call(slider);
+
+        slider.silentValue = function(value) {
+            if (typeof value !== 'undefined') {
+                this.value(value, false); // Antar at `false` forhindrer `onchange`-hendelsen
+            }
+            return this.value();
+        };
+
+        this.sliders.push(slider); // store slider
 
         console.log(y.domain(), y.range());
 
