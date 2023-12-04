@@ -1,14 +1,14 @@
 function setup() {
     let canvas = createCanvas(500, 350);
     background(255);
-    canvas.parent('leftCanvasContainer');  // Fest canvas til 'leftCanvasContainer' div
+    canvas.parent('leftCanvasContainer');  // Here we are connecting the canvas with the index.html file
 }
 
 function draw() {
     
 }
 
-function updateCircles(dataDict) {
+function updateCanvas(dataDict) {
     console.log('updateCircles called with:', dataDict); 
 
     //clear();  // remove earlier drawings
@@ -23,7 +23,7 @@ function updateCircles(dataDict) {
         let x = random(width);
         let y = random(height);
 
-        // The temperature varies between -0.66 og 3.39°C - (I could send this information as well) varierer mellom -0.66 og 3.39°C
+        // The temperature varies between -0.66 og 3.39°C - (I could send this information as well)
         let radius = map(temperature, -0.66, 3.39, 10, 50);  
 
         // draw the circle

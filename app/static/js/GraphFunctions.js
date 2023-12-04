@@ -23,8 +23,8 @@ const ChartUtils = {
 
     sendToP5: function(dataDict) {
         // check if P5-sketch has a function named 'updateCircles'
-        if (typeof window.updateCircles === 'function') {
-            window.updateCircles(dataDict);
+        if (typeof window.updateCanvas === 'function') {
+            window.updateCanvas(dataDict);
         }
     },
     

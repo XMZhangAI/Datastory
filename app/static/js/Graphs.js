@@ -1,4 +1,5 @@
 let globalSlider;
+let currentSliderYear;
 
 function updateGlobalYearExtremes(data) {
     let years = data.map(item => item.Year);
@@ -14,12 +15,14 @@ function filterDataByYearRange(data, minYear, maxYear) {
 
 function initializeGlobalSlider(globalMinYear, globalMaxYear) {   
 
+    currentSliderYear = globalMinYear; // startvalue for slider
     globalSlider = d3.sliderHorizontal()
         .min(globalMinYear)
         .max(globalMaxYear)
         .step(1)
         .width(window.innerWidth - 850)
         .on('onchange', year => {
+            currentSliderYear = year; // updates when slider moves
             ChartUtils.updateAllSliders(year);
         });
 
@@ -117,6 +120,40 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Global Min Year:", globalMinYear);
         console.log("Global Max Year:", globalMaxYear);
         initializeGlobalSlider(globalMinYear, globalMaxYear);
+
+        // Set up animation for the global slider
+        setupSliderAnimation(globalMinYear, globalMaxYear);
     });
 
 });
+
+
+// animation global slider
+function setupSliderAnimation(minYear, maxYear) {
+    let isAnimationRunning = false;
+
+    document.getElementById('startButton').addEventListener('click', function() {
+        isAnimationRunning = true;
+        animateSlider(currentSliderYear, maxYear);
+    });
+
+    document.getElementById('stopButton').addEventListener('click', function() {
+        isAnimationRunning = false;
+    });
+
+    function animateSlider(startYear, endYear) {
+        let currentYear = startYear;
+        function step() {
+            if (!isAnimationRunning || currentYear > endYear) {
+                isAnimationRunning = false;
+                return;
+            }
+            ChartUtils.updateAllSliders(currentYear);
+            globalSlider.value(currentYear); // updaitng sliders value visually
+            currentSliderYear = currentYear; // setting current year
+            currentYear++;
+            setTimeout(step, 500); // increase for faster slider movement/animation
+        }
+        step();
+    }
+}
