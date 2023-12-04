@@ -21,8 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Yearly CO₂ emissions in Norway", 
                 'vertical-line-co2', 
                 'shade-rect-co2',
-                d3.format(".2s"),
-                'co2'
+                d3.format(".2s")
             );
         });
 });
@@ -41,8 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Yearly average temperature in Norway",
                 'vertical-line-temp', 
                 'shade-rect-temp',
-                d3.format(".1f"),
-                'temp'
+                d3.format(".1f")
                 );
         });
 });
@@ -68,8 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Yearly renewable energy production in Norway",
                 'vertical-line-energy', 
                 'shade-rect-energy',
-                d3.format(".0f"),
-                'energy'
+                d3.format(".0f")
                 );
         });
 });

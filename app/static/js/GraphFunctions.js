@@ -9,21 +9,15 @@ const ChartUtils = {
     },
 
 
-    sendToP5: function(dataDict, chartType) {
+    sendToP5: function(dataDict) {
         // check if P5-sketch has a function named 'updateCircles'
         if (typeof window.updateCircles === 'function') {
-            if (chartType === 'co2') {
-                window.updateCo2(dataDict);
-            } else if (chartType === 'temp') {
-                window.updateTemp(dataDict);
-            } else if (chartType === 'energy') {
-                window.updateEnergy(dataDict);
-            }
+            window.updateCircles(dataDict);
         }
     },
     
 
-    updateCanvas: function(val, data, maxValue, minValue, svgId, x, verticalLineId, shadeRectId, chartType) {
+    updateCanvas: function(val, data, maxValue, minValue, svgId, x, verticalLineId, shadeRectId) {
         // Get the SVG element
         let svg = d3.select(svgId);
 
@@ -49,7 +43,7 @@ const ChartUtils = {
             console.log("Min Value: ", minValue);
 
             // sending info to canvas
-            this.sendToP5(dataDict, chartType);
+            this.sendToP5(dataDict);
 
             // Calculate the new x position for the vertical line based on the slider value
             let newX = x(val);
@@ -69,7 +63,7 @@ const ChartUtils = {
         }
     },
 
-    createLineChart: function(data, svgId, colorScheme, yAxisLabel, titleText, verticalLineId, shadeRectId, ytickFormat, chartType  ) {
+    createLineChart: function(data, svgId, colorScheme, yAxisLabel, titleText, verticalLineId, shadeRectId, ytickFormat   ) {
         console.log(data);
         // Maximum value for normalization
         const allValues = data.flatMap(d => 
@@ -85,8 +79,6 @@ const ChartUtils = {
 
         console.log("Min Value: ", minValue);
         console.log("Max Value: ", maxValue);
-
-        
 
         // Updating the global vars x and margin
         this.margin = {top: 20, right: 30, bottom: 30, left: 60};
@@ -186,7 +178,7 @@ const ChartUtils = {
             .ticks(10)
             .default(d3.min(data, d => d.Year))
             .on('onchange', val => { 
-                this.updateCanvas(val, data, maxValue, minValue, svgId, x, verticalLineId, shadeRectId, chartType);  // Data is passed as an argument to updateCanvas
+                this.updateCanvas(val, data, maxValue, minValue, svgId, x, verticalLineId, shadeRectId);  // Data is passed as an argument to updateCanvas
             });
 
         let gSlider = d3.select(svgId)
