@@ -2,6 +2,7 @@ class Landmark {
   constructor() {
     this.width = 400;
     this.height = 400;
+    this.tempreture = 0;
   }
 
   display() {
@@ -11,16 +12,29 @@ class Landmark {
     fill('rgb(238,39,39)');
     ellipse( 200, 80, 80);
     // mountains, back
-    fill('#CCD8D9');
+    let mountainColor = color('#CCD8D9');
+    mountainColor.levels[2] += this.temperature * 50; 
+    fill(mountainColor);
     triangle(-100, 275, 70, 50, 300, 275);
-    //triangle(100, 275, 325, 140, 700, 275);
-    fill('#B8CBCD');
+    
+    mountainColor = color('#B8CBCD');
+    mountainColor.levels[2] += this.temperature * 50;
+    fill(mountainColor);
     triangle(-200, 375, 100, 80, 200, 375);
-    fill('#94AEB2');
+    
+    mountainColor = color('#94AEB2');
+    mountainColor.levels[2] += this.temperature * 50;
+    fill(mountainColor);
     triangle(-200, 425, 20, 180, 300, 425);
-    fill('#6E9091');
+    
+    mountainColor = color('#6E9091');
+    mountainColor.levels[2] += this.temperature * 50;
+    fill(mountainColor);
     triangle(0, 425, 220, 220, 500, 425);
-    fill('#416C6C');
+    
+    mountainColor = color('#416C6C');
+    mountainColor.levels[2] += this.temperature * 50;
+    fill(mountainColor);
     triangle(-200, 425, 0, 350, 400, 425);
     // water
     fill('#CEE4EA');
