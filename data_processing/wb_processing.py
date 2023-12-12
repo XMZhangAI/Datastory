@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-# Last inn data
+# Load data
 file_path = "data/raw/cru-x0.5_timeseries_tas_timeseries_annual_1901-2022_mean_historical_cru_ts4.07_mean.xlsx"
 data = pd.read_excel(file_path)
 

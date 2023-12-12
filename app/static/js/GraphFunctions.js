@@ -51,8 +51,6 @@ const ChartUtils = {
 
             // Now dataDict holds all the necessary information
             console.log(dataDict);
-            console.log("Max Value: ", maxValue);
-            console.log("Min Value: ", minValue);
 
             // sending info to canvas
             this.sendToP5(dataDict);
@@ -85,9 +83,6 @@ const ChartUtils = {
         );
         const minValue = Math.min(...allValues);
         const maxValue = Math.max(...allValues);
-        // const allValues = data.flatMap(d => Object.values(d).filter(val => !isNaN(val)));
-        // const minValue = Math.min(...allValues);
-        // const maxValue = Math.max(...allValues);
 
         console.log("Min Value: ", minValue);
         console.log("Max Value: ", maxValue);
@@ -195,14 +190,14 @@ const ChartUtils = {
 
         let gSlider = d3.select(svgId)
             .append('g')
-            .attr('transform', `translate(${this.margin.left},${height - this.margin.bottom + 10})`); // Justert 10 piksler nedover
+            .attr('transform', `translate(${this.margin.left},${height - this.margin.bottom + 10})`); // adjusting 10 pixels down
 
 
         gSlider.call(slider);
 
         slider.silentValue = function(value) {
             if (typeof value !== 'undefined') {
-                this.value(value, false); // Antar at `false` forhindrer `onchange`-hendelsen
+                this.value(value, false);
             }
             return this.value();
         };
