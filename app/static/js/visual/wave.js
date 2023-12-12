@@ -1,10 +1,10 @@
 class Wave {
   constructor(x, y) {
     this.x = x || random(width);
-    this.y = y || random(height);
+    this.y = y || random(400,500);
     this.color = colors[floor(random(colors.length))];
     this.moveSpeed = 0.4;
-    this.moveScale = 800;
+    this.moveScale = 200;
   }
 
   update() {
@@ -13,7 +13,7 @@ class Wave {
     this.y += sin(angle) * this.moveSpeed;
     if (this.x > width || this.x < 0 || this.y > height || this.y < 0 || random(1) < 0.001) {
       this.x = random(width);
-      this.y = random(height);
+      this.y = random(400,500);
     }
   }
 
