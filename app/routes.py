@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, jsonify
-from .data_loading import energy_data, temp_data, co2_data, forest_data  # import data
+from .data_loading import energy_data, temp_data, co2_data  # import data
 
 main_bp = Blueprint("main", __name__)
 
@@ -15,7 +15,6 @@ def get_data(data_type):
         "energy": energy_data,
         "temperature": temp_data,
         "co2": co2_data,
-        "forest": forest_data,
     }
     data = data_dict.get(data_type)
     if data is not None:
