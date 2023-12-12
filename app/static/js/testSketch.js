@@ -7,7 +7,7 @@ let weeds, rootnoise;
 let padding = 25;
 let yearData=0;
 let oilData=0;
-let gasData=0;
+let otherData=0;
 let tempData=0;
 let hydroData=0;
 let factor = 0;
@@ -32,7 +32,7 @@ function draw() {
     scene2.temp = tempData;
     scene2.display();
     if(factor>0){
-        let maxTrees = 3;  // Set your desired maximum number of trees
+        let maxTrees = 2;  // Set your desired maximum number of trees
         let numTrees = floor(factor * maxTrees);
         for (let i = 0; i < numTrees; i++) {
             let x = random(10, 300);
@@ -83,7 +83,7 @@ function updateCanvas(dataDict) {
     let temperature = dataDict["Temperature"];
     yearData = dataDict["Year"];
     oilData = dataDict["Oil"];
-    gasData = dataDict["Gas"];
+    otherData = dataDict["Gas"]+dataDict["Other industry"]+dataDict["Flaring"]+dataDict["Cement"]+dataDict["Coal"];
     tempData = dataDict["Temperature"];
     hydroData = dataDict["Hydro"];
     //console.log('Year',yearData);
@@ -91,7 +91,7 @@ function updateCanvas(dataDict) {
     console.log('Year:',yearData);
     console.log('Hydro:',hydroData);
     console.log('Oil:',oilData);
-    console.log('Gas:',gasData);
+    console.log('other:',otherData);
     // scaling number of circles made
     let numCircles = Math.abs(temperature);
 
@@ -108,6 +108,6 @@ function updateCanvas(dataDict) {
     }
 }
 function calculateFactor(){
-    factor = -(oilData+gasData)*0.0000001+hydroData*0.01;
+    factor = (oilData-2*otherData)*0.0000001;
     console.log('the value of factor ',factor);
 }
