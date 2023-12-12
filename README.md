@@ -1,7 +1,7 @@
 # Datastory
 
 ## Project Description
-A brief description of what this project does and who it's for.
+This project has been developed in the course INF219 at the University of Bergen during the fall semester 2023.
 
 ## Installation
 ### Prerequisites
@@ -18,18 +18,14 @@ A brief description of what this project does and who it's for.
 5. Install dependencies: `pip install -r requirements.txt`
 
 ## Usage
-How to use this app, including any relevant configuration or environment variables.
+Go the run.py file. Run it and click the ip adress in the terminal. This will show the web page in port 5000 on you local web browser.
 
 ## Contributing
 Instructions for how to submit issues, and guidelines for submitting pull requests.
 
-## License
-[License Name]
-
-
 ## Data source:
-- [modern-renewable-energy-consumption](https://ourworldindata.org/grapher/modern-renewable-energy-consumption) *renewable energy consumption in Norway*
-- https://ourworldindata.org/grapher/forest-area-as-share-of-land-area *annual forest area as share of land in Norway*
-- https://ourworldindata.org/explorers/energy?facet=none&country=USA~GBR~CHN~OWID_WRL~IND~BRA~ZAF~NOR&hideControls=false&Total+or+Breakdown=Select+a+source&Energy+or+Electricity=Primary+energy&Metric=Annual+consumption *primary-energy-cons* *coal-consumption-by-country-terawatt-hours-twh* *gas-consumption-by-country* *low-carbon-energy-consumption* *oil-consumption-by-country* *primary-energy-nuclear* (not set up in graph yet)
-- https://climateknowledgeportal.worldbank.org/download-data *annual_1901-2022_mean_historical_temperature*
-- https://ourworldindata.org/grapher/co2-by-source?country=~NOR *co2-by-source*
+- [modern-renewable-energy-consumption](https://ourworldindata.org/grapher/modern-renewable-energy-consumption) 
+
+- [annual_1901-2022_mean_historical_temperature] (https://climateknowledgeportal.worldbank.org/download-data) 
+
+- [co2-by-source] (https://ourworldindata.org/grapher/co2-by-source?country=~NOR) 

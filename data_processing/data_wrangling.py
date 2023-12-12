@@ -75,7 +75,6 @@ def process_data(
 
 
 # Preprocessing data
-pd_1 = process_data("data/raw/forest-area-km.csv", ["Forest area"])
 
 # -------------pd_3 set up-------------#
 
